@@ -1,0 +1,6035 @@
+Sender: LSF System <lsfadmin@c1u10n03>
+Subject: Job 427298: <mos_tran0.1_18_eafe1> in cluster <hpc.lsec.cc.ac.cn> Done
+
+Job <mos_tran0.1_18_eafe1> was submitted from host <ln02> by user <qrzhang> in cluster <hpc.lsec.cc.ac.cn>.
+Job was executed on host(s) <36*c1u10n03>, in queue <batch>, as user <qrzhang> in cluster <hpc.lsec.cc.ac.cn>.
+                            <36*c3u19n03>
+                            <36*c2u17n01>
+                            <36*c6u08n02>
+</share/home/qrzhang> was used as the home directory.
+</share/home/qrzhang/phg/codes_eafe> was used as the working directory.
+Started at Tue Dec  8 10:38:56 2020
+Results reported on Tue Dec  8 10:41:35 2020
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+mpiexec ./semiconductor
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   5519.98 sec.
+    Max Memory :                                 1116 MB
+    Average Memory :                             1070.96 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Processes :                              43
+    Max Threads :                                80
+
+The output (if any) follows:
+
+Parallel Hierarchical Grid (version 0.9.4).
+
+  Doping profile: source 1.0000e+18, drain 1.0000e+18, substrate 1.0000e+16
+  15552 vertices, 78912 elements, 144 submeshes, load imbalance: 1.00182
+
+  ================ EQUILIBRIUM STATE ================
+
+  Linear systems solved: [nits 19, res 7.07e-16 70.23MB 0.1066s]
+  rtol 1.270859e+00
+  Linear systems solved: [nits 19, res 5.44e-16 71.79MB 0.0218s]
+  rtol 1.009722e+00
+  Linear systems solved: [nits 19, res 1.66e-15 72.26MB 0.0191s]
+  rtol 8.049331e-01
+  Linear systems solved: [nits 19, res 2.07e-15 72.74MB 0.0195s]
+  rtol 6.426059e-01
+  Linear systems solved: [nits 19, res 5.87e-15 72.74MB 0.0192s]
+  rtol 5.133940e-01
+  Linear systems solved: [nits 19, res 9.08e-15 72.93MB 0.0309s]
+  rtol 4.103378e-01
+  Linear systems solved: [nits 19, res 6.91e-15 72.93MB 0.0195s]
+  rtol 3.280556e-01
+  Linear systems solved: [nits 19, res 6.10e-15 72.93MB 0.0199s]
+  rtol 2.623189e-01
+  Linear systems solved: [nits 19, res 4.95e-15 72.93MB 0.0217s]
+  rtol 2.097801e-01
+  Linear systems solved: [nits 19, res 4.40e-15 73.07MB 0.0532s]
+  rtol 1.677785e-01
+  Linear systems solved: [nits 19, res 3.86e-15 73.07MB 0.0548s]
+  rtol 1.341947e-01
+  Linear systems solved: [nits 19, res 3.32e-15 73.07MB 0.0551s]
+  rtol 1.073383e-01
+  Linear systems solved: [nits 18, res 2.07e-14 73.07MB 0.0394s]
+  rtol 8.585965e-02
+  Linear systems solved: [nits 18, res 1.73e-14 73.07MB 0.0574s]
+  rtol 6.868072e-02
+  Linear systems solved: [nits 18, res 1.44e-14 73.07MB 0.0502s]
+  rtol 5.494007e-02
+  Linear systems solved: [nits 18, res 1.22e-14 73.07MB 0.0384s]
+  rtol 4.394910e-02
+  Linear systems solved: [nits 18, res 9.89e-15 73.12MB 0.0280s]
+  rtol 3.515731e-02
+  Linear systems solved: [nits 18, res 8.64e-15 73.12MB 0.0445s]
+  rtol 2.812449e-02
+  Linear systems solved: [nits 18, res 8.44e-15 73.12MB 0.0290s]
+  rtol 2.249863e-02
+  Linear systems solved: [nits 18, res 7.68e-15 73.12MB 0.0371s]
+  rtol 1.799818e-02
+  Linear systems solved: [nits 18, res 7.14e-15 73.12MB 0.0318s]
+  rtol 1.439799e-02
+  Linear systems solved: [nits 18, res 6.70e-15 73.12MB 0.0163s]
+  rtol 1.151793e-02
+  Linear systems solved: [nits 18, res 6.36e-15 73.12MB 0.0164s]
+  rtol 9.213943e-03
+  Linear systems solved: [nits 18, res 6.02e-15 73.12MB 0.0172s]
+  rtol 7.370797e-03
+  Linear systems solved: [nits 18, res 5.65e-15 73.12MB 0.0182s]
+  rtol 5.896305e-03
+  Linear systems solved: [nits 18, res 5.22e-15 73.12MB 0.0194s]
+  rtol 4.716728e-03
+  Linear systems solved: [nits 18, res 4.69e-15 73.16MB 0.0184s]
+  rtol 3.773077e-03
+  Linear systems solved: [nits 17, res 2.57e-14 73.16MB 0.0185s]
+  rtol 3.018163e-03
+  Linear systems solved: [nits 17, res 2.14e-14 73.16MB 0.0171s]
+  rtol 2.414236e-03
+  Linear systems solved: [nits 17, res 1.70e-14 73.16MB 0.0214s]
+  rtol 1.931097e-03
+  Linear systems solved: [nits 17, res 1.29e-14 73.16MB 0.0172s]
+  rtol 1.544587e-03
+  Linear systems solved: [nits 17, res 9.38e-15 73.16MB 0.0169s]
+  rtol 1.235381e-03
+  Linear systems solved: [nits 17, res 6.61e-15 73.16MB 0.0170s]
+  rtol 9.880162e-04
+  Linear systems solved: [nits 16, res 2.09e-14 73.16MB 0.0164s]
+  rtol 7.915080e-04
+  Linear systems solved: [nits 16, res 1.42e-14 73.16MB 0.0165s]
+  rtol 6.346653e-04
+  Linear systems solved: [nits 16, res 9.58e-15 73.16MB 0.0165s]
+  rtol 5.091911e-04
+  Linear systems solved: [nits 16, res 6.47e-15 73.16MB 0.0157s]
+  rtol 4.088118e-04
+  Linear systems solved: [nits 15, res 2.18e-14 73.16MB 0.0150s]
+  rtol 3.285084e-04
+  Linear systems solved: [nits 15, res 1.50e-14 73.16MB 0.0153s]
+  rtol 2.642656e-04
+  Linear systems solved: [nits 15, res 1.05e-14 73.16MB 0.0155s]
+  rtol 2.128714e-04
+  Linear systems solved: [nits 15, res 7.55e-15 73.16MB 0.0159s]
+  rtol 1.717560e-04
+  Linear systems solved: [nits 15, res 5.55e-15 73.16MB 0.0158s]
+  rtol 1.388638e-04
+  Linear systems solved: [nits 14, res 2.78e-14 73.16MB 0.0154s]
+  rtol 1.125499e-04
+  Linear systems solved: [nits 14, res 2.10e-14 73.16MB 0.0155s]
+  rtol 9.149885e-05
+  Converged.
+
+  =========== V_g: -2.0000, V_s: 0.0000, V_d: 0.0500, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 5.64e-15 73.26MB 0.0155s]
+  rtol 2.360269e-02
+  Linear systems solved: [nits 14, res 1.39e-14 73.26MB 0.0146s]
+  rtol 3.784240e-04
+  Linear systems solved: [nits 11, res 2.81e-14 73.26MB 0.0135s]
+  rtol 4.974797e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 114, res 9.31e-16 78.29MB 0.6873s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 65, res 8.39e-11 83.33MB 0.1475s]
+
+  rtol: V 9.959213e-02, P 1.752960e+00, N 1.934039e+00
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 19, res 3.59e-16 83.33MB 0.0186s]
+  rtol 7.939888e-02
+  Linear systems solved: [nits 20, res 1.64e-16 83.33MB 0.0196s]
+  rtol 1.397521e-02
+  Linear systems solved: [nits 19, res 6.38e-16 83.33MB 0.0198s]
+  rtol 1.298982e-02
+  Linear systems solved: [nits 19, res 3.60e-16 83.33MB 0.0195s]
+  rtol 1.227557e-02
+  Linear systems solved: [nits 18, res 6.48e-16 83.33MB 0.0192s]
+  rtol 1.019015e-02
+  Linear systems solved: [nits 18, res 3.90e-16 83.33MB 0.0196s]
+  rtol 6.086650e-03
+  Linear systems solved: [nits 17, res 6.00e-15 83.33MB 0.0186s]
+  rtol 1.592222e-03
+  Linear systems solved: [nits 16, res 7.47e-15 83.33MB 0.0203s]
+  rtol 8.539684e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 114, res 9.79e-16 84.23MB 0.2368s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 66, res 1.32e-14 85.7MB 0.1527s]
+
+  rtol: V 1.342943e+00, P 1.873836e-01, N 2.458894e-02
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 9.38e-15 85.7MB 0.0190s]
+  rtol 7.539636e-06
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 121, res 9.63e-16 86.07MB 0.2314s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 64, res 7.26e-16 86.73MB 0.3277s]
+
+  rtol: V 3.243952e-04, P 2.916978e-05, N 2.568880e-06
+
+  ---- The 4-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 12, res 1.79e-14 86.73MB 0.0160s]
+  rtol 7.539636e-06
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 123, res 9.70e-16 87.01MB 0.2283s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 63, res 8.52e-16 87.49MB 0.1397s]
+
+  rtol: V 3.179765e-05, P 3.404941e-05, N 1.805249e-07
+  Converged!
+
+  Currents (V_g: -2.0000 V_d: 0.0500): source: 6.4489e-18, drain: -1.5313e-17, substrate: 1.0913e-17
+
+  =========== V_g: -2.0000, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 15, res 5.22e-15 87.49MB 0.0171s]
+  rtol 2.350567e-02
+  Linear systems solved: [nits 14, res 1.26e-14 87.49MB 0.0169s]
+  rtol 3.798842e-04
+  Linear systems solved: [nits 11, res 2.85e-14 87.49MB 0.0145s]
+  rtol 4.974899e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 116, res 9.25e-16 87.7MB 0.2167s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 66, res 8.29e-11 88.15MB 0.1442s]
+
+  rtol: V 8.969625e-02, P 1.510985e+00, N 1.006061e+00
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 19, res 3.91e-16 88.15MB 0.0176s]
+  rtol 7.919547e-02
+  Linear systems solved: [nits 20, res 1.71e-16 88.15MB 0.0175s]
+  rtol 1.396702e-02
+  Linear systems solved: [nits 19, res 6.43e-16 88.15MB 0.0183s]
+  rtol 1.296543e-02
+  Linear systems solved: [nits 19, res 3.68e-16 88.15MB 0.0180s]
+  rtol 1.225828e-02
+  Linear systems solved: [nits 18, res 6.53e-16 88.15MB 0.0178s]
+  rtol 1.013808e-02
+  Linear systems solved: [nits 18, res 4.47e-16 88.15MB 0.0178s]
+  rtol 6.023281e-03
+  Linear systems solved: [nits 17, res 6.27e-15 88.15MB 0.0179s]
+  rtol 1.554574e-03
+  Linear systems solved: [nits 16, res 6.77e-15 88.15MB 0.0160s]
+  rtol 8.132064e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 120, res 9.03e-16 88.3MB 0.2122s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 67, res 3.75e-14 88.67MB 0.2437s]
+
+  rtol: V 1.491849e+00, P 1.429986e-01, N 4.138856e-02
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 15, res 8.75e-15 88.67MB 0.0836s]
+  rtol 1.596987e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 117, res 8.90e-16 88.83MB 0.3277s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 67, res 8.01e-16 89.19MB 0.2550s]
+
+  rtol: V 8.058787e-04, P 7.089003e-05, N 1.149770e-05
+
+  ---- The 4-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 5.24e-15 89.19MB 0.0515s]
+  rtol 7.539636e-06
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 114, res 9.81e-16 89.36MB 0.4817s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 65, res 8.38e-16 89.7MB 0.2111s]
+
+  rtol: V 3.179765e-05, P 2.190806e-05, N 4.454786e-07
+  Converged!
+
+  Currents (V_g: -2.0000 V_d: 0.1000): source: 6.0948e-18, drain: -1.9172e-17, substrate: 1.2554e-17
+
+  =========== V_g: -1.9500, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 5.74e-15 89.7MB 0.0206s]
+  rtol 1.080224e-02
+  Linear systems solved: [nits 16, res 5.86e-15 89.7MB 0.0188s]
+  rtol 5.712953e-04
+  Linear systems solved: [nits 12, res 2.76e-14 89.7MB 0.0170s]
+  rtol 7.732960e-06
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 93, res 7.96e-16 89.8MB 0.1761s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 73, res 3.10e-13 90.11MB 0.1518s]
+
+  rtol: V 5.453486e-01, P 2.541220e-02, N 6.460653e-03
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 6.76e-15 90.11MB 0.0173s]
+  rtol 7.782860e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 104, res 9.47e-16 90.2MB 0.2230s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 73, res 6.23e-16 90.48MB 0.1537s]
+
+  rtol: V 2.926971e-03, P 2.849572e-04, N 7.257601e-05
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 1.18e-14 90.48MB 0.0161s]
+  rtol 7.732960e-06
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 118, res 8.32e-16 90.56MB 0.2159s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 65, res 8.55e-16 90.81MB 0.1403s]
+
+  rtol: V 3.180574e-05, P 5.676316e-05, N 6.997753e-07
+  Converged!
+
+  Currents (V_g: -1.9500 V_d: 0.1000): source: 4.0724e-18, drain: -1.7183e-17, substrate: 1.2480e-17
+
+  =========== V_g: -1.9000, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 6.34e-15 90.81MB 0.0206s]
+  rtol 1.147921e-02
+  Linear systems solved: [nits 16, res 6.93e-15 90.81MB 0.0175s]
+  rtol 6.686540e-04
+  Linear systems solved: [nits 13, res 6.74e-15 90.81MB 0.0176s]
+  rtol 7.936459e-06
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 104, res 9.51e-16 90.93MB 0.1970s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 73, res 7.69e-14 91.21MB 0.1481s]
+
+  rtol: V 5.662819e-01, P 2.760872e-02, N 4.601801e-03
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 8.93e-15 91.21MB 0.0187s]
+  rtol 3.078197e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 110, res 9.44e-16 91.34MB 0.2060s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 70, res 8.19e-16 91.54MB 0.1442s]
+
+  rtol: V 9.088213e-04, P 1.105586e-04, N 2.800056e-05
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 7.51e-15 91.54MB 0.0161s]
+  rtol 7.936459e-06
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 110, res 8.91e-16 91.63MB 0.5072s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 66, res 7.08e-16 91.85MB 0.1456s]
+
+  rtol: V 3.180574e-05, P 2.983479e-05, N 8.047047e-07
+  Converged!
+
+  Currents (V_g: -1.9000 V_d: 0.1000): source: 4.1969e-18, drain: -1.7978e-17, substrate: 1.2498e-17
+
+  =========== V_g: -1.8500, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 7.35e-15 91.85MB 0.0174s]
+  rtol 1.216629e-02
+  Linear systems solved: [nits 16, res 1.08e-14 91.85MB 0.0175s]
+  rtol 7.287378e-04
+  Linear systems solved: [nits 13, res 1.06e-14 91.85MB 0.0160s]
+  rtol 8.150958e-06
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 80, res 9.13e-16 91.95MB 0.1521s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 70, res 1.09e-13 92.16MB 0.1439s]
+
+  rtol: V 5.796787e-01, P 2.791229e-02, N 5.625482e-03
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 1.25e-14 92.16MB 0.0169s]
+  rtol 3.162867e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 106, res 9.15e-16 92.21MB 0.2134s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 70, res 9.61e-16 92.41MB 0.1449s]
+
+  rtol: V 9.227846e-04, P 1.107694e-04, N 2.799660e-05
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 7.94e-15 92.41MB 0.0164s]
+  rtol 8.150958e-06
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 97, res 8.57e-16 92.51MB 0.1975s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 66, res 6.94e-16 92.75MB 0.4087s]
+
+  rtol: V 3.180574e-05, P 2.143517e-05, N 9.034985e-07
+  Converged!
+
+  Currents (V_g: -1.8500 V_d: 0.1000): source: 4.4004e-18, drain: -1.7477e-17, substrate: 1.2487e-17
+
+  =========== V_g: -1.8000, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 8.95e-15 92.75MB 0.0416s]
+  rtol 1.293348e-02
+  Linear systems solved: [nits 16, res 2.12e-14 92.75MB 0.0408s]
+  rtol 7.628683e-04
+  Linear systems solved: [nits 13, res 1.28e-14 92.75MB 0.0399s]
+  rtol 8.377373e-06
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 98, res 9.41e-16 92.84MB 0.2299s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 71, res 1.04e-13 93MB 0.1549s]
+
+  rtol: V 7.761359e-01, P 2.811982e-02, N 7.024357e-03
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 1.24e-14 93MB 0.0186s]
+  rtol 3.252235e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 97, res 9.96e-16 93.1MB 0.1946s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 70, res 9.52e-16 93.25MB 0.1537s]
+
+  rtol: V 9.361315e-04, P 1.109846e-04, N 2.797720e-05
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 8.40e-15 93.25MB 0.0176s]
+  rtol 8.377373e-06
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 96, res 8.81e-16 93.32MB 0.1815s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 66, res 8.71e-16 93.43MB 0.1421s]
+
+  rtol: V 3.180574e-05, P 2.100521e-05, N 1.001782e-06
+  Converged!
+
+  Currents (V_g: -1.8000 V_d: 0.1000): source: 5.2865e-18, drain: -1.9748e-17, substrate: 1.2472e-17
+
+  =========== V_g: -1.7500, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 1.07e-14 93.43MB 0.0202s]
+  rtol 1.370836e-02
+  Linear systems solved: [nits 16, res 2.47e-14 93.43MB 0.0190s]
+  rtol 8.842270e-04
+  Linear systems solved: [nits 13, res 1.47e-14 93.43MB 0.0179s]
+  rtol 8.671186e-06
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 89, res 9.81e-16 93.5MB 0.1720s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 70, res 1.39e-13 93.63MB 0.1582s]
+
+  rtol: V 8.280259e-01, P 2.770746e-02, N 9.175677e-03
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 1.24e-14 93.63MB 0.0178s]
+  rtol 3.346705e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 75, res 9.03e-16 93.71MB 0.1519s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 71, res 7.04e-16 93.84MB 0.1540s]
+
+  rtol: V 9.487573e-04, P 1.111942e-04, N 2.795296e-05
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 8.86e-15 93.84MB 0.0162s]
+  rtol 8.616727e-06
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 86, res 9.12e-16 93.91MB 0.1653s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 66, res 8.65e-16 94.04MB 0.1462s]
+
+  rtol: V 3.180574e-05, P 5.568575e-05, N 1.099555e-06
+  Converged!
+
+  Currents (V_g: -1.7500 V_d: 0.1000): source: 4.5229e-18, drain: -1.7883e-17, substrate: 1.2471e-17
+
+  =========== V_g: -1.7000, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 1.20e-14 94.04MB 0.0179s]
+  rtol 1.474295e-02
+  Linear systems solved: [nits 16, res 2.32e-14 94.04MB 0.0173s]
+  rtol 9.695054e-04
+  Linear systems solved: [nits 13, res 9.98e-15 94.04MB 0.0164s]
+  rtol 1.111085e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 70, res 8.76e-16 94.08MB 0.1381s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 69, res 1.36e-13 94.15MB 0.1439s]
+
+  rtol: V 8.360366e-01, P 2.820339e-02, N 1.188978e-02
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 1.25e-14 94.15MB 0.0184s]
+  rtol 3.446726e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 68, res 9.31e-16 94.2MB 0.1372s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 70, res 8.99e-16 94.27MB 0.1463s]
+
+  rtol: V 9.117670e-04, P 1.114028e-04, N 2.794258e-05
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 9.34e-15 94.27MB 0.0172s]
+  rtol 8.870160e-06
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 64, res 9.77e-16 94.32MB 0.1319s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 66, res 8.06e-16 94.38MB 0.1431s]
+
+  rtol: V 3.180574e-05, P 5.598340e-05, N 1.196819e-06
+  Converged!
+
+  Currents (V_g: -1.7000 V_d: 0.1000): source: 4.5443e-18, drain: -2.0532e-17, substrate: 1.2438e-17
+
+  =========== V_g: -1.6500, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 1.41e-14 94.38MB 0.0186s]
+  rtol 1.583530e-02
+  Linear systems solved: [nits 16, res 2.53e-14 94.38MB 0.0194s]
+  rtol 1.055612e-03
+  Linear systems solved: [nits 13, res 1.97e-14 94.38MB 0.0179s]
+  rtol 1.232222e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 30, res 7.06e-16 94.44MB 0.0869s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 73, res 8.46e-14 94.5MB 0.1590s]
+
+  rtol: V 8.428580e-01, P 2.871199e-02, N 1.572732e-02
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 1.25e-14 94.5MB 0.0174s]
+  rtol 3.552802e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 30, res 7.32e-16 94.55MB 0.1765s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 72, res 7.90e-16 94.6MB 0.3554s]
+
+  rtol: V 9.121262e-04, P 1.116077e-04, N 2.791042e-05
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 9.83e-15 94.6MB 0.0364s]
+  rtol 9.138953e-06
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 30, res 6.79e-16 94.68MB 0.2796s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 67, res 7.41e-16 94.73MB 0.2382s]
+
+  rtol: V 3.180574e-05, P 5.641634e-05, N 1.293575e-06
+  Converged!
+
+  Currents (V_g: -1.6500 V_d: 0.1000): source: 4.1683e-18, drain: -1.8287e-17, substrate: 1.2456e-17
+
+  =========== V_g: -1.6000, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 1.71e-14 94.73MB 0.0415s]
+  rtol 1.691172e-02
+  Linear systems solved: [nits 17, res 5.78e-15 94.73MB 0.0416s]
+  rtol 1.166592e-03
+  Linear systems solved: [nits 13, res 2.50e-14 94.73MB 0.0265s]
+  rtol 1.454339e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 21, res 6.73e-16 94.82MB 0.1679s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 73, res 7.02e-14 94.88MB 0.2964s]
+
+  rtol: V 8.390581e-01, P 2.912221e-02, N 2.091902e-02
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 1.25e-14 94.88MB 0.0192s]
+  rtol 3.665502e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 22, res 5.52e-16 94.92MB 0.0741s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 70, res 7.47e-16 95MB 0.1486s]
+
+  rtol: V 9.124689e-04, P 1.118260e-04, N 2.785226e-05
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 1.03e-14 95MB 0.0165s]
+  rtol 9.424545e-06
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 21, res 8.16e-16 95.06MB 0.0745s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 66, res 9.25e-16 95.13MB 0.1421s]
+
+  rtol: V 3.180574e-05, P 3.210285e-05, N 1.389823e-06
+  Converged!
+
+  Currents (V_g: -1.6000 V_d: 0.1000): source: 4.0170e-18, drain: -1.9318e-17, substrate: 1.2443e-17
+
+  =========== V_g: -1.5500, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 1.90e-14 95.13MB 0.0168s]
+  rtol 1.807690e-02
+  Linear systems solved: [nits 17, res 8.11e-15 95.13MB 0.0175s]
+  rtol 1.283104e-03
+  Linear systems solved: [nits 13, res 2.47e-14 95.13MB 0.0192s]
+  rtol 1.581784e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 4.84e-16 95.19MB 0.0659s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 73, res 1.44e-13 95.25MB 0.1514s]
+
+  rtol: V 8.432393e-01, P 2.926541e-02, N 2.651138e-02
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 1.27e-14 95.25MB 0.0168s]
+  rtol 3.785466e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 17, res 6.97e-16 95.28MB 0.0655s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 73, res 6.54e-16 95.36MB 0.1546s]
+
+  rtol: V 9.006481e-04, P 1.120393e-04, N 2.774578e-05
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 1.08e-14 95.36MB 0.0174s]
+  rtol 9.728563e-06
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 4.91e-16 95.4MB 0.0664s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 67, res 8.07e-16 95.45MB 0.3852s]
+
+  rtol: V 3.180574e-05, P 2.882246e-05, N 1.485563e-06
+  Converged!
+
+  Currents (V_g: -1.5500 V_d: 0.1000): source: 3.7341e-18, drain: -1.8189e-17, substrate: 1.2443e-17
+
+  =========== V_g: -1.5000, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 2.20e-14 95.45MB 0.0453s]
+  rtol 1.949947e-02
+  Linear systems solved: [nits 17, res 1.07e-14 95.45MB 0.0218s]
+  rtol 1.351124e-03
+  Linear systems solved: [nits 14, res 6.04e-15 95.45MB 0.0258s]
+  rtol 1.605761e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 17, res 4.55e-16 95.48MB 0.0686s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 75, res 1.21e-13 95.54MB 0.1600s]
+
+  rtol: V 8.558929e-01, P 2.887607e-02, N 3.480712e-02
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 1.27e-14 95.54MB 0.0184s]
+  rtol 3.913421e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 17, res 8.18e-16 95.56MB 0.0632s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 74, res 8.31e-16 95.62MB 0.1626s]
+
+  rtol: V 9.090358e-04, P 1.122421e-04, N 2.757631e-05
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 1.14e-14 95.62MB 0.0159s]
+  rtol 1.005285e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 17, res 6.15e-16 95.66MB 0.0647s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 67, res 8.25e-16 95.71MB 0.4422s]
+
+  rtol: V 3.180574e-05, P 2.025895e-05, N 1.580797e-06
+  Converged!
+
+  Currents (V_g: -1.5000 V_d: 0.1000): source: 4.8852e-18, drain: -1.9160e-17, substrate: 1.2463e-17
+
+  =========== V_g: -1.4500, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 2.53e-14 95.71MB 0.0216s]
+  rtol 2.085336e-02
+  Linear systems solved: [nits 17, res 1.19e-14 95.71MB 0.0206s]
+  rtol 1.379741e-03
+  Linear systems solved: [nits 14, res 6.57e-15 95.71MB 0.0187s]
+  rtol 1.580275e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 16, res 4.95e-16 95.74MB 0.0648s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 74, res 1.35e-13 95.78MB 0.1517s]
+
+  rtol: V 8.687412e-01, P 2.970095e-02, N 4.422047e-02
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 1.28e-14 95.78MB 0.0174s]
+  rtol 4.050193e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 16, res 8.58e-16 95.81MB 0.0657s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 73, res 8.77e-16 95.84MB 0.1542s]
+
+  rtol: V 9.171693e-04, P 1.124605e-04, N 2.728535e-05
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 1.19e-14 95.84MB 0.0159s]
+  rtol 1.039950e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 17, res 4.33e-16 95.88MB 0.0645s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 68, res 9.25e-16 95.94MB 0.1511s]
+
+  rtol: V 3.180574e-05, P 2.014629e-05, N 1.675525e-06
+  Converged!
+
+  Currents (V_g: -1.4500 V_d: 0.1000): source: 3.9037e-18, drain: -1.9795e-17, substrate: 1.2477e-17
+
+  =========== V_g: -1.4000, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 18, res 4.54e-15 95.94MB 0.0189s]
+  rtol 2.235608e-02
+  Linear systems solved: [nits 17, res 1.15e-14 95.94MB 0.0206s]
+  rtol 1.348984e-03
+  Linear systems solved: [nits 14, res 7.42e-15 95.94MB 0.0177s]
+  rtol 1.421349e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 17, res 5.97e-16 95.95MB 0.0655s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 72, res 1.04e-13 96.07MB 0.1531s]
+
+  rtol: V 1.052738e+00, P 2.990738e-02, N 5.505307e-02
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 1.28e-14 96.07MB 0.0180s]
+  rtol 4.196727e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 17, res 7.78e-16 96.09MB 0.0656s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 74, res 8.43e-16 96.18MB 0.1508s]
+
+  rtol: V 9.249864e-04, P 1.126740e-04, N 2.690930e-05
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 1.24e-14 96.18MB 0.0186s]
+  rtol 1.077091e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 17, res 8.53e-16 96.2MB 0.0907s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 68, res 7.59e-16 96.29MB 0.2022s]
+
+  rtol: V 3.180574e-05, P 1.976744e-05, N 1.769746e-06
+  Converged!
+
+  Currents (V_g: -1.4000 V_d: 0.1000): source: 6.4565e-18, drain: -2.0630e-17, substrate: 1.2527e-17
+
+  =========== V_g: -1.3500, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 18, res 5.21e-15 96.29MB 0.0594s]
+  rtol 2.389464e-02
+  Linear systems solved: [nits 17, res 1.06e-14 96.29MB 0.0728s]
+  rtol 1.299772e-03
+  Linear systems solved: [nits 14, res 7.77e-15 96.29MB 0.0383s]
+  rtol 1.232301e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 16, res 8.35e-16 96.31MB 0.1398s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 109, res 1.21e-13 96.37MB 0.2535s]
+
+  rtol: V 1.058715e+00, P 2.961886e-02, N 6.541475e-02
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 1.29e-14 96.37MB 0.0756s]
+  rtol 4.354109e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 17, res 9.55e-16 96.41MB 0.4059s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 105, res 9.88e-16 96.45MB 0.3472s]
+
+  rtol: V 9.259771e-04, P 1.128762e-04, N 6.747034e-04
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 1.30e-14 96.45MB 0.0172s]
+  rtol 1.116983e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 16, res 8.30e-16 96.48MB 0.0633s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 99, res 9.17e-16 96.54MB 0.1819s]
+
+  rtol: V 3.180574e-05, P 1.937776e-05, N 8.610674e-06
+  Converged!
+
+  Currents (V_g: -1.3500 V_d: 0.1000): source: 1.0515e-17, drain: -2.3324e-17, substrate: 1.2594e-17
+
+  =========== V_g: -1.3000, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 18, res 5.73e-15 96.54MB 0.0185s]
+  rtol 2.547959e-02
+  Linear systems solved: [nits 17, res 9.93e-15 96.54MB 0.0197s]
+  rtol 1.205038e-03
+  Linear systems solved: [nits 13, res 2.77e-14 96.54MB 0.0164s]
+  rtol 1.159944e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 17, res 5.95e-16 96.56MB 0.0650s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 117, res 1.42e-13 96.62MB 0.2186s]
+
+  rtol: V 1.056490e+00, P 2.920826e-02, N 6.872774e-02
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 1.29e-14 96.62MB 0.0175s]
+  rtol 4.523591e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 17, res 8.27e-16 96.64MB 0.0649s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 123, res 8.88e-16 96.72MB 0.2265s]
+
+  rtol: V 9.187473e-04, P 1.130757e-04, N 4.400034e-04
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 1.35e-14 96.72MB 0.0173s]
+  rtol 1.159944e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 16, res 9.73e-16 96.73MB 0.0652s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 109, res 9.07e-16 96.8MB 0.2080s]
+
+  rtol: V 3.180574e-05, P 1.900644e-05, N 3.314655e-06
+  Converged!
+
+  Currents (V_g: -1.3000 V_d: 0.1000): source: 1.6897e-17, drain: -2.7839e-17, substrate: 1.2660e-17
+
+  =========== V_g: -1.2500, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 18, res 5.93e-15 96.8MB 0.0183s]
+  rtol 2.712434e-02
+  Linear systems solved: [nits 17, res 9.71e-15 96.76MB 0.0307s]
+  rtol 1.115639e-03
+  Linear systems solved: [nits 13, res 2.29e-14 96.76MB 0.0181s]
+  rtol 1.206342e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 17, res 9.36e-16 96.82MB 0.0622s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 134, res 1.27e-13 96.88MB 0.2378s]
+
+  rtol: V 1.058808e+00, P 2.867926e-02, N 5.851916e-02
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 1.29e-14 96.88MB 0.0189s]
+  rtol 4.706625e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 17, res 8.31e-16 96.89MB 0.0632s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 132, res 9.48e-16 96.96MB 0.4482s]
+
+  rtol: V 9.155540e-04, P 1.132938e-04, N 1.567197e-04
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 1.40e-14 96.96MB 0.0152s]
+  rtol 1.206342e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 17, res 9.38e-16 96.97MB 0.0607s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 126, res 9.44e-16 97MB 0.2260s]
+
+  rtol: V 3.180574e-05, P 1.863178e-05, N 4.328367e-06
+  Converged!
+
+  Currents (V_g: -1.2500 V_d: 0.1000): source: 3.4969e-17, drain: -4.5922e-17, substrate: 1.2743e-17
+
+  =========== V_g: -1.2000, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 18, res 7.45e-15 97MB 0.0191s]
+  rtol 2.882362e-02
+  Linear systems solved: [nits 17, res 9.61e-15 97MB 0.0188s]
+  rtol 1.019287e-03
+  Linear systems solved: [nits 13, res 1.97e-14 97MB 0.0190s]
+  rtol 1.256606e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 17, res 9.07e-16 97.01MB 0.0630s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 140, res 1.29e-13 97.05MB 0.2408s]
+
+  rtol: V 1.196578e+00, P 2.803573e-02, N 4.449143e-02
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 1.30e-14 97.05MB 0.0193s]
+  rtol 4.904907e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 17, res 4.69e-16 97.05MB 0.0637s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 141, res 8.87e-16 97.11MB 0.2451s]
+
+  rtol: V 9.098162e-04, P 1.134982e-04, N 7.814181e-05
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 1.46e-14 97.11MB 0.0172s]
+  rtol 1.256606e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 17, res 4.89e-16 97.12MB 0.0629s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 124, res 9.05e-16 97.19MB 0.2216s]
+
+  rtol: V 3.180574e-05, P 1.826457e-05, N 2.141578e-06
+  Converged!
+
+  Currents (V_g: -1.2000 V_d: 0.1000): source: 9.0021e-17, drain: -1.0608e-16, substrate: 1.2758e-17
+
+  =========== V_g: -1.1500, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 18, res 9.96e-15 97.19MB 0.0183s]
+  rtol 3.060377e-02
+  Linear systems solved: [nits 17, res 8.88e-15 97.19MB 0.0188s]
+  rtol 9.548200e-04
+  Linear systems solved: [nits 13, res 1.71e-14 97.19MB 0.0168s]
+  rtol 1.311241e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 17, res 9.46e-16 97.19MB 0.0594s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 150, res 1.41e-13 97.22MB 0.6671s]
+
+  rtol: V 1.195595e+00, P 2.728000e-02, N 3.627322e-02
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 1.30e-14 97.22MB 0.0351s]
+  rtol 5.120425e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 17, res 4.59e-16 97.22MB 0.0603s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 145, res 9.01e-16 97.26MB 0.2551s]
+
+  rtol: V 9.158899e-04, P 1.137177e-04, N 2.895727e-05
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 1.51e-14 97.26MB 0.0187s]
+  rtol 1.311241e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 4.37e-16 97.27MB 0.0651s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 138, res 8.85e-16 97.3MB 0.3181s]
+
+  rtol: V 3.180574e-05, P 1.789448e-05, N 2.233275e-06
+  Converged!
+
+  Currents (V_g: -1.1500 V_d: 0.1000): source: 2.8328e-16, drain: -2.9845e-16, substrate: 1.2778e-17
+
+  =========== V_g: -1.1000, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 18, res 1.22e-14 97.3MB 0.0409s]
+  rtol 3.248615e-02
+  Linear systems solved: [nits 17, res 7.47e-15 97.3MB 0.0510s]
+  rtol 8.988438e-04
+  Linear systems solved: [nits 13, res 1.62e-14 97.3MB 0.0375s]
+  rtol 1.370843e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 5.52e-16 97.31MB 0.1239s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 142, res 1.46e-13 97.36MB 0.2510s]
+
+  rtol: V 1.288118e+00, P 2.641209e-02, N 3.196552e-02
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 1.31e-14 97.36MB 0.0194s]
+  rtol 5.355531e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 4.86e-16 97.38MB 0.0938s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 142, res 1.00e-15 97.41MB 0.2580s]
+
+  rtol: V 9.052435e-04, P 1.139220e-04, N 2.483079e-05
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 1.56e-14 97.41MB 0.0190s]
+  rtol 1.370843e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 7.35e-16 97.44MB 0.0631s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 130, res 8.53e-16 97.48MB 0.2399s]
+
+  rtol: V 3.180574e-05, P 1.755638e-05, N 2.324467e-06
+  Converged!
+
+  Currents (V_g: -1.1000 V_d: 0.1000): source: 9.5606e-16, drain: -9.7080e-16, substrate: 1.2784e-17
+
+  =========== V_g: -1.0500, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 18, res 1.38e-14 97.48MB 0.0224s]
+  rtol 3.449247e-02
+  Linear systems solved: [nits 17, res 5.85e-15 97.48MB 0.0209s]
+  rtol 8.571779e-04
+  Linear systems solved: [nits 13, res 1.60e-14 97.48MB 0.0203s]
+  rtol 1.436121e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 17, res 7.98e-16 97.48MB 0.0603s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 140, res 1.43e-13 97.49MB 0.2476s]
+
+  rtol: V 1.347473e+00, P 2.543044e-02, N 2.939677e-02
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 1.31e-14 97.49MB 0.0198s]
+  rtol 5.613024e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 3.89e-16 97.52MB 0.0664s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 138, res 9.71e-16 97.55MB 0.2385s]
+
+  rtol: V 9.094888e-04, P 1.141376e-04, N 2.469407e-05
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 1.62e-14 97.55MB 0.0164s]
+  rtol 1.436121e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 4.45e-16 97.57MB 0.0611s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 131, res 8.85e-16 97.59MB 0.2295s]
+
+  rtol: V 3.180574e-05, P 1.720256e-05, N 2.415156e-06
+  Converged!
+
+  Currents (V_g: -1.0500 V_d: 0.1000): source: 3.4398e-15, drain: -3.4507e-15, substrate: 1.2793e-17
+
+  =========== V_g: -1.0000, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 18, res 1.54e-14 97.59MB 0.0209s]
+  rtol 3.666029e-02
+  Linear systems solved: [nits 17, res 8.21e-15 97.59MB 0.0210s]
+  rtol 8.254980e-04
+  Linear systems solved: [nits 13, res 1.54e-14 97.59MB 0.0188s]
+  rtol 1.507927e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 4.07e-16 97.6MB 0.0645s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 138, res 1.41e-13 97.63MB 0.2646s]
+
+  rtol: V 1.394155e+00, P 2.433370e-02, N 2.734827e-02
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 1.31e-14 97.63MB 0.0279s]
+  rtol 5.896262e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 17, res 9.58e-16 97.64MB 0.1552s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 139, res 1.07e-15 97.68MB 0.6367s]
+
+  rtol: V 8.916296e-04, P 1.143770e-04, N 2.450978e-05
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 1.67e-14 97.68MB 0.0457s]
+  rtol 1.507927e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 17, res 9.44e-16 97.69MB 0.1029s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 129, res 9.84e-16 97.72MB 0.2630s]
+
+  rtol: V 3.180574e-05, P 1.704308e-05, N 2.505341e-06
+  Converged!
+
+  Currents (V_g: -1.0000 V_d: 0.1000): source: 1.2899e-14, drain: -1.2916e-14, substrate: 1.2795e-17
+
+  =========== V_g: -0.9500, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 18, res 1.64e-14 97.72MB 0.0203s]
+  rtol 3.900827e-02
+  Linear systems solved: [nits 17, res 9.28e-15 97.72MB 0.0205s]
+  rtol 7.987020e-04
+  Linear systems solved: [nits 13, res 1.45e-14 97.72MB 0.0185s]
+  rtol 1.587292e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 4.97e-16 97.72MB 0.0659s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 129, res 1.36e-13 97.75MB 0.6996s]
+
+  rtol: V 1.440107e+00, P 2.737096e-02, N 2.603930e-02
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 1.31e-14 97.75MB 0.0255s]
+  rtol 6.209310e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 17, res 8.54e-16 97.76MB 0.0606s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 124, res 1.24e-15 97.79MB 0.2233s]
+
+  rtol: V 8.960657e-04, P 1.146344e-04, N 2.433671e-05
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 1.73e-14 97.79MB 0.0168s]
+  rtol 1.587292e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 17, res 9.56e-16 97.8MB 0.0603s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 116, res 9.15e-16 97.84MB 0.2089s]
+
+  rtol: V 3.180574e-05, P 1.696800e-05, N 2.595024e-06
+  Converged!
+
+  Currents (V_g: -0.9500 V_d: 0.1000): source: 5.0138e-14, drain: -5.0152e-14, substrate: 1.2815e-17
+
+  =========== V_g: -0.9000, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 18, res 1.69e-14 97.84MB 0.0205s]
+  rtol 4.159395e-02
+  Linear systems solved: [nits 17, res 9.48e-15 97.84MB 0.0215s]
+  rtol 7.884734e-04
+  Linear systems solved: [nits 13, res 1.33e-14 97.84MB 0.0191s]
+  rtol 1.675475e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 8.51e-16 97.86MB 0.0628s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 124, res 1.50e-13 97.9MB 0.2223s]
+
+  rtol: V 1.454687e+00, P 3.195025e-02, N 2.452504e-02
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 1.32e-14 97.9MB 0.0204s]
+  rtol 6.557137e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 5.46e-16 97.91MB 0.0624s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 124, res 1.06e-15 97.93MB 0.2230s]
+
+  rtol: V 9.005437e-04, P 1.148729e-04, N 2.425631e-05
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 1.78e-14 97.93MB 0.0201s]
+  rtol 1.675475e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 5.15e-16 97.93MB 0.0666s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 114, res 8.83e-16 97.95MB 0.2135s]
+
+  rtol: V 3.180574e-05, P 1.688934e-05, N 2.684204e-06
+  Converged!
+
+  Currents (V_g: -0.9000 V_d: 0.1000): source: 2.0060e-13, drain: -2.0061e-13, substrate: 1.2814e-17
+
+  =========== V_g: -0.8500, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 18, res 1.64e-14 97.95MB 0.0233s]
+  rtol 4.443519e-02
+  Linear systems solved: [nits 17, res 9.53e-15 97.95MB 0.0222s]
+  rtol 7.809697e-04
+  Linear systems solved: [nits 13, res 1.19e-14 97.95MB 0.0210s]
+  rtol 1.774032e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 9.34e-16 97.96MB 0.0596s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 128, res 1.30e-13 98.02MB 0.2241s]
+
+  rtol: V 1.461844e+00, P 3.621915e-02, N 2.329066e-02
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 1.32e-14 98.02MB 0.0199s]
+  rtol 6.945880e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 7.03e-16 98.05MB 0.0601s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 119, res 1.28e-15 98.09MB 0.2105s]
+
+  rtol: V 8.986408e-04, P 1.151285e-04, N 2.411402e-05
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 1.83e-14 98.09MB 0.0178s]
+  rtol 1.774032e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 4.02e-16 98.12MB 0.0602s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 110, res 8.52e-16 98.16MB 0.1995s]
+
+  rtol: V 3.180574e-05, P 1.681002e-05, N 2.772883e-06
+  Converged!
+
+  Currents (V_g: -0.8500 V_d: 0.1000): source: 8.2264e-13, drain: -8.2266e-13, substrate: 1.2811e-17
+
+  =========== V_g: -0.8000, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 18, res 1.50e-14 98.16MB 0.0217s]
+  rtol 4.762262e-02
+  Linear systems solved: [nits 17, res 9.50e-15 98.16MB 0.0223s]
+  rtol 7.746431e-04
+  Linear systems solved: [nits 13, res 1.05e-14 98.16MB 0.0198s]
+  rtol 1.884909e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 17, res 9.70e-16 98.16MB 0.0589s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 115, res 1.22e-13 98.19MB 0.2070s]
+
+  rtol: V 1.380436e+00, P 3.990781e-02, N 2.197531e-02
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 1.32e-14 98.19MB 0.0209s]
+  rtol 7.383212e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 5.38e-16 98.2MB 0.0606s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 119, res 1.12e-15 98.22MB 0.2119s]
+
+  rtol: V 8.644676e-04, P 1.153724e-04, N 2.401888e-05
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 1.89e-14 98.22MB 0.0179s]
+  rtol 1.884909e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 3.97e-16 98.23MB 0.0600s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 110, res 8.57e-16 98.26MB 0.1997s]
+
+  rtol: V 3.180574e-05, P 1.673280e-05, N 2.861061e-06
+  Converged!
+
+  Currents (V_g: -0.8000 V_d: 0.1000): source: 3.4463e-12, drain: -3.4463e-12, substrate: 1.2831e-17
+
+  =========== V_g: -0.7500, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 18, res 1.47e-14 98.26MB 0.0222s]
+  rtol 5.119247e-02
+  Linear systems solved: [nits 17, res 9.04e-15 98.26MB 0.0222s]
+  rtol 8.145386e-04
+  Linear systems solved: [nits 13, res 9.55e-15 98.26MB 0.0207s]
+  rtol 2.010570e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 4.27e-16 98.28MB 0.0679s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 124, res 1.47e-13 98.32MB 0.3831s]
+
+  rtol: V 1.298013e+00, P 4.277051e-02, N 2.077997e-02
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 1.32e-14 98.32MB 0.0349s]
+  rtol 7.878852e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 7.73e-16 98.33MB 0.1353s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 126, res 1.26e-15 98.38MB 0.2882s]
+
+  rtol: V 8.666079e-04, P 1.156286e-04, N 2.382603e-05
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 1.94e-14 98.38MB 0.0402s]
+  rtol 2.010570e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 6.32e-16 98.38MB 0.1474s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 113, res 8.44e-16 98.4MB 0.3150s]
+
+  rtol: V 3.180574e-05, P 1.665805e-05, N 2.948740e-06
+  Converged!
+
+  Currents (V_g: -0.7500 V_d: 0.1000): source: 1.4708e-11, drain: -1.4708e-11, substrate: 1.2814e-17
+
+  =========== V_g: -0.7000, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 18, res 1.54e-14 98.4MB 0.0470s]
+  rtol 5.524811e-02
+  Linear systems solved: [nits 17, res 8.50e-15 98.4MB 0.2290s]
+  rtol 1.122826e-03
+  Linear systems solved: [nits 13, res 8.67e-15 98.4MB 0.0418s]
+  rtol 2.154182e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 4.51e-16 98.4MB 0.1211s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 118, res 1.37e-13 98.43MB 0.2075s]
+
+  rtol: V 1.307569e+00, P 4.582280e-02, N 1.953600e-02
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 1.33e-14 98.43MB 0.0207s]
+  rtol 8.445305e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 5.87e-16 98.44MB 0.0647s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 115, res 1.47e-15 98.45MB 0.2074s]
+
+  rtol: V 8.688287e-04, P 1.158493e-04, N 2.382733e-05
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 2.00e-14 98.45MB 0.0192s]
+  rtol 2.154182e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 9.31e-16 98.45MB 0.0656s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 110, res 8.17e-16 98.46MB 0.1958s]
+
+  rtol: V 3.180574e-05, P 1.657997e-05, N 3.035923e-06
+  Converged!
+
+  Currents (V_g: -0.7000 V_d: 0.1000): source: 6.3803e-11, drain: -6.3803e-11, substrate: 1.2838e-17
+
+  =========== V_g: -0.6500, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 18, res 1.34e-14 98.46MB 0.0238s]
+  rtol 5.987385e-02
+  Linear systems solved: [nits 17, res 7.78e-15 98.46MB 0.0220s]
+  rtol 1.672375e-03
+  Linear systems solved: [nits 12, res 2.90e-14 98.46MB 0.0198s]
+  rtol 2.319888e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 6.26e-16 98.48MB 0.0675s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 112, res 1.47e-13 98.5MB 0.2122s]
+
+  rtol: V 1.234258e+00, P 4.952675e-02, N 1.840140e-02
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 1.33e-14 98.5MB 0.0196s]
+  rtol 9.098961e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 3.74e-16 98.51MB 0.0715s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 110, res 1.33e-15 98.54MB 0.2127s]
+
+  rtol: V 8.712227e-04, P 1.161244e-04, N 2.369011e-05
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 2.05e-14 98.54MB 0.0204s]
+  rtol 2.319888e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 5.36e-16 98.55MB 0.0725s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 107, res 8.52e-16 98.58MB 0.4232s]
+
+  rtol: V 3.180574e-05, P 1.650399e-05, N 3.122616e-06
+  Converged!
+
+  Currents (V_g: -0.6500 V_d: 0.1000): source: 2.8068e-10, drain: -2.8068e-10, substrate: 1.2848e-17
+
+  =========== V_g: -0.6000, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 18, res 1.62e-14 98.58MB 0.0445s]
+  rtol 6.314488e-02
+  Linear systems solved: [nits 17, res 9.39e-15 98.58MB 0.0389s]
+  rtol 2.430270e-03
+  Linear systems solved: [nits 13, res 7.35e-15 98.58MB 0.0390s]
+  rtol 2.432305e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 5.82e-16 98.6MB 0.1103s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 116, res 1.43e-13 98.62MB 0.2183s]
+
+  rtol: V 1.239796e+00, P 5.108724e-02, N 1.733581e-02
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 1.33e-14 98.62MB 0.0201s]
+  rtol 9.545239e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 4.36e-16 98.63MB 0.0630s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 113, res 1.44e-15 98.65MB 0.2773s]
+
+  rtol: V 8.761282e-04, P 1.163973e-04, N 2.684418e-05
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 2.11e-14 98.65MB 0.0184s]
+  rtol 2.432530e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 9.33e-16 98.67MB 0.0631s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 107, res 8.22e-16 98.69MB 0.1926s]
+
+  rtol: V 3.180574e-05, P 1.642591e-05, N 3.208838e-06
+  Converged!
+
+  Currents (V_g: -0.6000 V_d: 0.1000): source: 1.2485e-09, drain: -1.2485e-09, substrate: 1.2872e-17
+
+  =========== V_g: -0.5500, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 18, res 1.27e-14 98.69MB 0.0222s]
+  rtol 6.352004e-02
+  Linear systems solved: [nits 17, res 1.27e-14 98.69MB 0.0469s]
+  rtol 3.397124e-03
+  Linear systems solved: [nits 13, res 6.79e-15 98.69MB 0.0184s]
+  rtol 4.472348e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 3.26e-16 98.7MB 0.0633s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 130, res 1.21e-13 98.71MB 0.2220s]
+
+  rtol: V 1.173497e+00, P 4.972898e-02, N 1.698006e-02
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 1.34e-14 98.71MB 0.0226s]
+  rtol 9.552189e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 8.53e-16 98.71MB 0.3191s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 122, res 1.47e-15 98.73MB 0.2133s]
+
+  rtol: V 8.957479e-04, P 1.167729e-04, N 4.294583e-05
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 2.16e-14 98.73MB 0.0214s]
+  rtol 2.432766e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 7.51e-16 98.73MB 0.0700s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 113, res 9.21e-16 98.76MB 0.1970s]
+
+  rtol: V 3.180574e-05, P 1.635114e-05, N 3.294662e-06
+  Converged!
+
+  Currents (V_g: -0.5500 V_d: 0.1000): source: 5.5774e-09, drain: -5.5774e-09, substrate: 1.2890e-17
+
+  =========== V_g: -0.5000, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 18, res 1.68e-14 98.76MB 0.0208s]
+  rtol 6.375980e-02
+  Linear systems solved: [nits 17, res 1.85e-14 98.76MB 0.0212s]
+  rtol 4.421843e-03
+  Linear systems solved: [nits 13, res 1.52e-14 98.76MB 0.0186s]
+  rtol 9.158880e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 4.85e-16 98.77MB 0.0675s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 133, res 1.19e-13 98.79MB 0.2334s]
+
+  rtol: V 1.128788e+00, P 4.532047e-02, N 2.778198e-02
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 1.35e-14 98.79MB 0.0216s]
+  rtol 9.565700e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 8.12e-16 98.79MB 0.0690s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 137, res 1.13e-15 98.8MB 0.4152s]
+
+  rtol: V 9.540159e-04, P 1.175615e-04, N 3.194625e-04
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 2.22e-14 98.8MB 0.0207s]
+  rtol 2.433003e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 5.41e-16 98.81MB 0.0684s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 122, res 9.93e-16 98.84MB 0.2172s]
+
+  rtol: V 3.180574e-05, P 1.628495e-05, N 3.380383e-06
+  Converged!
+
+  Currents (V_g: -0.5000 V_d: 0.1000): source: 2.4529e-08, drain: -2.4529e-08, substrate: 1.2977e-17
+
+  =========== V_g: -0.4500, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 18, res 1.91e-14 98.84MB 0.0234s]
+  rtol 6.357777e-02
+  Linear systems solved: [nits 18, res 5.59e-15 98.84MB 0.0218s]
+  rtol 5.511151e-03
+  Linear systems solved: [nits 14, res 7.78e-15 98.84MB 0.0197s]
+  rtol 1.578678e-04
+  Linear systems solved: [nits 11, res 1.04e-14 98.84MB 0.0183s]
+  rtol 2.433028e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 6.00e-16 98.85MB 0.0615s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 142, res 1.41e-13 98.87MB 0.2451s]
+
+  rtol: V 1.087947e+00, P 3.880491e-02, N 7.033193e-02
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 1.40e-14 98.87MB 0.0228s]
+  rtol 3.258632e-04
+  Linear systems solved: [nits 13, res 5.37e-15 98.87MB 0.0190s]
+  rtol 2.433260e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 9.46e-16 98.87MB 0.0661s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 143, res 1.41e-15 98.89MB 0.2471s]
+
+  rtol: V 5.458528e-03, P 1.217979e-04, N 2.199254e-03
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 5.07e-15 98.89MB 0.0198s]
+  rtol 2.433273e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 5.90e-16 98.9MB 0.0678s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 128, res 9.43e-16 98.92MB 0.2227s]
+
+  rtol: V 1.287121e-04, P 1.593325e-05, N 5.291928e-05
+
+  ---- The 4-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 7.45e-15 98.92MB 0.0195s]
+  rtol 2.433288e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 7.87e-16 98.92MB 0.0638s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 131, res 8.68e-16 98.94MB 0.2231s]
+
+  rtol: V 3.180270e-05, P 1.770144e-05, N 3.604126e-06
+  Converged!
+
+  Currents (V_g: -0.4500 V_d: 0.1000): source: 1.0019e-07, drain: -1.0019e-07, substrate: 1.3208e-17
+
+  =========== V_g: -0.4000, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 18, res 1.76e-14 98.94MB 0.0214s]
+  rtol 6.200676e-02
+  Linear systems solved: [nits 18, res 6.95e-15 98.94MB 0.0231s]
+  rtol 6.611526e-03
+  Linear systems solved: [nits 14, res 2.11e-14 98.94MB 0.0207s]
+  rtol 2.448350e-04
+  Linear systems solved: [nits 11, res 1.20e-14 98.94MB 0.0191s]
+  rtol 2.433298e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 9.94e-16 98.96MB 0.0638s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 142, res 2.24e-13 98.98MB 0.2445s]
+
+  rtol: V 9.519270e-01, P 3.138328e-02, N 1.568937e-01
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 1.42e-14 98.98MB 0.0203s]
+  rtol 1.712658e-03
+  Linear systems solved: [nits 13, res 1.49e-14 98.98MB 0.0190s]
+  rtol 2.433658e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 6.13e-16 98.98MB 0.0650s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 148, res 2.16e-15 99MB 0.5264s]
+
+  rtol: V 2.857469e-02, P 2.017604e-04, N 6.839489e-03
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 1.75e-14 99MB 0.0395s]
+  rtol 8.009108e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 4.13e-16 99MB 0.1470s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 143, res 8.27e-16 99MB 0.2894s]
+
+  rtol: V 1.305316e-03, P 2.320839e-05, N 1.136498e-03
+
+  ---- The 4-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 2.03e-14 99MB 0.0339s]
+  rtol 2.433685e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 4.71e-16 99.02MB 0.0884s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 138, res 9.13e-16 99.04MB 0.4947s]
+
+  rtol: V 2.029396e-04, P 1.765722e-05, N 4.754477e-05
+
+  ---- The 5-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 7.74e-15 99.04MB 0.0357s]
+  rtol 2.433700e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 3.65e-16 99.05MB 0.0637s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 122, res 9.47e-16 99.05MB 0.2146s]
+
+  rtol: V 3.180169e-05, P 1.769201e-05, N 6.726286e-06
+  Converged!
+
+  Currents (V_g: -0.4000 V_d: 0.1000): source: 3.4117e-07, drain: -3.4117e-07, substrate: 1.3647e-17
+
+  =========== V_g: -0.3500, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 18, res 1.40e-14 99.05MB 0.0220s]
+  rtol 5.701480e-02
+  Linear systems solved: [nits 18, res 6.60e-15 99.05MB 0.0224s]
+  rtol 7.043463e-03
+  Linear systems solved: [nits 15, res 8.75e-15 99.05MB 0.0199s]
+  rtol 3.202135e-04
+  Linear systems solved: [nits 12, res 5.46e-15 99.05MB 0.0187s]
+  rtol 2.433705e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 4.17e-16 99.05MB 0.0627s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 147, res 2.22e-13 99.07MB 0.2509s]
+
+  rtol: V 8.152894e-01, P 2.523019e-02, N 2.034542e-01
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 18, res 7.42e-15 99.07MB 0.0210s]
+  rtol 4.267421e-03
+  Linear systems solved: [nits 14, res 1.08e-14 99.07MB 0.0196s]
+  rtol 8.252882e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 17, res 9.60e-16 99.08MB 0.0611s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 160, res 4.05e-15 99.1MB 0.4541s]
+
+  rtol: V 7.028192e-02, P 4.344915e-04, N 1.536743e-02
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 15, res 2.38e-14 99.1MB 0.0191s]
+  rtol 3.405300e-04
+  Linear systems solved: [nits 12, res 7.97e-15 99.1MB 0.0189s]
+  rtol 2.434152e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 6.41e-16 99.12MB 0.0615s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 159, res 9.37e-16 99.13MB 0.2782s]
+
+  rtol: V 5.582803e-03, P 9.377232e-05, N 4.631115e-03
+
+  ---- The 4-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 1.54e-14 99.13MB 0.0204s]
+  rtol 1.181424e-04
+  Linear systems solved: [nits 11, res 1.90e-14 99.13MB 0.0196s]
+  rtol 2.434181e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 17, res 8.84e-16 99.13MB 0.0621s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 139, res 9.85e-16 99.14MB 0.2481s]
+
+  rtol: V 1.949055e-03, P 3.571455e-05, N 1.019623e-03
+
+  ---- The 5-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 5.93e-15 99.14MB 0.0209s]
+  rtol 2.434195e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 9.21e-16 99.14MB 0.0674s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 143, res 9.51e-16 99.16MB 0.5424s]
+
+  rtol: V 3.446292e-04, P 1.765486e-05, N 8.799333e-05
+
+  ---- The 6-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 1.14e-14 99.16MB 0.0191s]
+  rtol 2.434210e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 5.60e-16 99.16MB 0.0618s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 143, res 9.50e-16 99.18MB 0.2509s]
+
+  rtol: V 3.832193e-05, P 1.765591e-05, N 3.417573e-05
+  Converged!
+
+  Currents (V_g: -0.3500 V_d: 0.1000): source: 8.9208e-07, drain: -8.9208e-07, substrate: 1.4222e-17
+
+  =========== V_g: -0.3000, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 18, res 1.06e-14 99.18MB 0.0227s]
+  rtol 4.711519e-02
+  Linear systems solved: [nits 17, res 2.69e-14 99.18MB 0.0224s]
+  rtol 6.818360e-03
+  Linear systems solved: [nits 15, res 1.22e-14 99.18MB 0.0218s]
+  rtol 3.205390e-04
+  Linear systems solved: [nits 12, res 7.03e-15 99.18MB 0.0196s]
+  rtol 2.434200e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 6.33e-16 99.18MB 0.0616s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 148, res 2.66e-13 99.2MB 0.2602s]
+
+  rtol: V 5.724297e-01, P 2.010200e-02, N 1.731829e-01
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 18, res 1.01e-14 99.2MB 0.0213s]
+  rtol 5.486063e-03
+  Linear systems solved: [nits 14, res 2.47e-14 99.2MB 0.0198s]
+  rtol 1.806420e-04
+  Linear systems solved: [nits 11, res 2.91e-14 99.2MB 0.0180s]
+  rtol 2.434768e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 4.80e-16 99.2MB 0.0623s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 159, res 6.86e-15 99.22MB 0.2781s]
+
+  rtol: V 8.207178e-02, P 6.413874e-04, N 2.733705e-02
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 1.03e-14 99.22MB 0.0201s]
+  rtol 7.550180e-04
+  Linear systems solved: [nits 12, res 2.26e-14 99.22MB 0.0193s]
+  rtol 2.434802e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 8.65e-16 99.22MB 0.0612s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 162, res 1.43e-15 99.27MB 0.4471s]
+
+  rtol: V 1.245296e-02, P 1.744858e-04, N 7.351544e-03
+
+  ---- The 4-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 15, res 7.59e-15 99.27MB 0.0411s]
+  rtol 3.369170e-04
+  Linear systems solved: [nits 11, res 2.88e-14 99.27MB 0.0394s]
+  rtol 2.434832e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 8.14e-16 99.27MB 0.1454s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 161, res 9.50e-16 99.3MB 0.8526s]
+
+  rtol: V 5.099591e-03, P 5.006685e-05, N 3.349748e-03
+
+  ---- The 5-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 1.50e-14 99.3MB 0.0330s]
+  rtol 1.035608e-04
+  Linear systems solved: [nits 11, res 2.63e-14 99.3MB 0.0379s]
+  rtol 2.434861e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 4.62e-16 99.31MB 0.1072s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 153, res 8.79e-16 99.33MB 0.2714s]
+
+  rtol: V 1.582638e-03, P 3.491835e-05, N 5.712421e-04
+
+  ---- The 6-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 1.90e-14 99.33MB 0.0189s]
+  rtol 2.434876e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 4.14e-16 99.33MB 0.0632s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 148, res 9.75e-16 99.35MB 0.4122s]
+
+  rtol: V 2.597761e-04, P 1.747907e-05, N 1.786123e-04
+
+  ---- The 7-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 1.60e-14 99.35MB 0.0284s]
+  rtol 2.434890e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 7.23e-16 99.35MB 0.0688s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 146, res 7.08e-16 99.36MB 0.2597s]
+
+  rtol: V 1.122056e-04, P 1.762019e-05, N 6.945683e-05
+
+  ---- The 8-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 8.96e-15 99.36MB 0.0197s]
+  rtol 2.434905e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 5.31e-16 99.36MB 0.0608s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 144, res 7.75e-16 99.38MB 0.2529s]
+
+  rtol: V 3.179462e-05, P 1.768182e-05, N 7.559957e-06
+  Converged!
+
+  Currents (V_g: -0.3000 V_d: 0.1000): source: 1.8108e-06, drain: -1.8108e-06, substrate: 1.4693e-17
+
+  =========== V_g: -0.2500, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 18, res 7.69e-15 99.38MB 0.0205s]
+  rtol 3.480458e-02
+  Linear systems solved: [nits 17, res 2.11e-14 99.38MB 0.0219s]
+  rtol 5.235707e-03
+  Linear systems solved: [nits 15, res 8.88e-15 99.38MB 0.0203s]
+  rtol 2.201134e-04
+  Linear systems solved: [nits 11, res 2.93e-14 99.38MB 0.0172s]
+  rtol 2.434875e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 4.63e-16 99.38MB 0.0616s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 150, res 4.50e-13 99.39MB 0.2507s]
+
+  rtol: V 4.057115e-01, P 1.593522e-02, N 1.194393e-01
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 18, res 8.43e-15 99.39MB 0.0229s]
+  rtol 4.718491e-03
+  Linear systems solved: [nits 15, res 7.13e-15 99.39MB 0.0220s]
+  rtol 1.635731e-04
+  Linear systems solved: [nits 11, res 2.88e-14 99.39MB 0.0196s]
+  rtol 2.435617e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 4.78e-16 99.39MB 0.0602s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 161, res 1.14e-14 99.4MB 0.5779s]
+
+  rtol: V 7.097133e-02, P 7.486523e-04, N 2.504781e-02
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 1.75e-14 99.4MB 0.0214s]
+  rtol 8.053403e-04
+  Linear systems solved: [nits 13, res 1.05e-14 99.4MB 0.0192s]
+  rtol 2.435654e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 8.85e-16 99.4MB 0.0583s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 171, res 2.46e-15 99.41MB 0.2751s]
+
+  rtol: V 1.227751e-02, P 2.226289e-04, N 7.740171e-03
+
+  ---- The 4-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 15, res 1.75e-14 99.41MB 0.0203s]
+  rtol 4.751524e-04
+  Linear systems solved: [nits 12, res 9.42e-15 99.41MB 0.0188s]
+  rtol 2.435685e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 5.98e-16 99.41MB 0.0591s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 171, res 1.06e-15 99.42MB 0.2763s]
+
+  rtol: V 7.241150e-03, P 6.407041e-05, N 4.617441e-03
+
+  ---- The 5-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 2.56e-14 99.42MB 0.0205s]
+  rtol 1.815601e-04
+  Linear systems solved: [nits 12, res 5.40e-15 99.42MB 0.0201s]
+  rtol 2.435713e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 6.37e-16 99.42MB 0.0600s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 158, res 9.24e-16 99.43MB 0.2646s]
+
+  rtol: V 2.795990e-03, P 3.446182e-05, N 1.192292e-03
+
+  ---- The 6-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 1.02e-14 99.43MB 0.0439s]
+  rtol 3.807705e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 8.96e-16 99.43MB 0.2933s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 155, res 9.21e-16 99.45MB 0.2569s]
+
+  rtol: V 5.755472e-04, P 1.699260e-05, N 3.373630e-04
+
+  ---- The 7-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 1.38e-14 99.45MB 0.0224s]
+  rtol 2.435743e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 4.63e-16 99.45MB 0.0621s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 149, res 8.74e-16 99.45MB 0.2435s]
+
+  rtol: V 2.971733e-04, P 1.745386e-05, N 1.997544e-04
+
+  ---- The 8-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 1.86e-14 99.45MB 0.0442s]
+  rtol 2.435757e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 9.14e-16 99.45MB 0.1426s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 148, res 9.32e-16 99.46MB 0.5330s]
+
+  rtol: V 1.141283e-04, P 1.768579e-05, N 4.394383e-05
+
+  ---- The 9-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 9.41e-15 99.46MB 0.0210s]
+  rtol 2.435772e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 9.00e-16 99.46MB 0.0603s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 143, res 8.62e-16 99.47MB 0.2414s]
+
+  rtol: V 3.179360e-05, P 1.766809e-05, N 1.692967e-05
+  Converged!
+
+  Currents (V_g: -0.2500 V_d: 0.1000): source: 3.0350e-06, drain: -3.0350e-06, substrate: 1.5009e-17
+
+  =========== V_g: -0.2000, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 2.70e-14 99.47MB 0.0208s]
+  rtol 2.501589e-02
+  Linear systems solved: [nits 17, res 1.24e-14 99.47MB 0.0211s]
+  rtol 3.428318e-03
+  Linear systems solved: [nits 14, res 2.01e-14 99.47MB 0.0191s]
+  rtol 1.056983e-04
+  Linear systems solved: [nits 11, res 1.95e-14 99.47MB 0.0175s]
+  rtol 2.435738e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 5.53e-16 99.47MB 0.0640s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 150, res 4.07e-13 99.47MB 0.2623s]
+
+  rtol: V 2.854755e-01, P 1.313135e-02, N 8.185086e-02
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 18, res 5.20e-15 99.47MB 0.0226s]
+  rtol 3.478712e-03
+  Linear systems solved: [nits 14, res 2.37e-14 99.47MB 0.0193s]
+  rtol 1.014551e-04
+  Linear systems solved: [nits 11, res 2.56e-14 99.47MB 0.0172s]
+  rtol 2.436533e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 6.60e-16 99.48MB 0.0611s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 160, res 1.55e-14 99.48MB 0.2785s]
+
+  rtol: V 5.287700e-02, P 8.027968e-04, N 1.841330e-02
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 1.79e-14 99.48MB 0.0202s]
+  rtol 7.148495e-04
+  Linear systems solved: [nits 13, res 1.05e-14 99.48MB 0.0196s]
+  rtol 2.436571e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 9.82e-16 99.48MB 0.0625s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 166, res 4.02e-15 99.49MB 0.2895s]
+
+  rtol: V 9.737396e-03, P 2.353471e-04, N 6.932200e-03
+
+  ---- The 4-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 15, res 2.74e-14 99.49MB 0.0187s]
+  rtol 4.843657e-04
+  Linear systems solved: [nits 12, res 1.17e-14 99.49MB 0.0179s]
+  rtol 2.436603e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 9.09e-16 99.49MB 0.0611s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 164, res 1.62e-15 99.5MB 0.2842s]
+
+  rtol: V 7.433171e-03, P 6.638237e-05, N 4.455141e-03
+
+  ---- The 5-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 2.57e-14 99.5MB 0.0204s]
+  rtol 2.003803e-04
+  Linear systems solved: [nits 12, res 7.28e-15 99.5MB 0.0192s]
+  rtol 2.436631e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 17, res 8.55e-16 99.5MB 0.0610s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 162, res 8.85e-16 99.5MB 0.3496s]
+
+  rtol: V 3.097710e-03, P 3.395722e-05, N 1.361752e-03
+
+  ---- The 6-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 1.27e-14 99.5MB 0.0404s]
+  rtol 4.667810e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 5.42e-16 99.5MB 0.1369s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 157, res 9.57e-16 99.5MB 0.6762s]
+
+  rtol: V 7.067425e-04, P 1.651183e-05, N 4.121298e-04
+
+  ---- The 7-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 5.71e-15 99.5MB 0.0311s]
+  rtol 2.777326e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 5.15e-16 99.5MB 0.0619s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 154, res 8.31e-16 99.51MB 0.2900s]
+
+  rtol: V 4.247333e-04, P 1.730440e-05, N 2.739376e-04
+
+  ---- The 8-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 2.55e-14 99.51MB 0.0189s]
+  rtol 2.436675e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 9.29e-16 99.51MB 0.0619s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 150, res 7.59e-16 99.52MB 0.5110s]
+
+  rtol: V 1.835479e-04, P 1.769839e-05, N 7.756606e-05
+
+  ---- The 9-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 1.30e-14 99.52MB 0.0389s]
+  rtol 2.436690e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 9.64e-16 99.52MB 0.0820s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 149, res 8.16e-16 99.54MB 0.2860s]
+
+  rtol: V 3.974130e-05, P 1.769112e-05, N 2.748439e-05
+  Converged!
+
+  Currents (V_g: -0.2000 V_d: 0.1000): source: 4.4746e-06, drain: -4.4746e-06, substrate: 1.5208e-17
+
+  =========== V_g: -0.1500, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 1.97e-14 99.54MB 0.0202s]
+  rtol 1.854846e-02
+  Linear systems solved: [nits 17, res 7.24e-15 99.54MB 0.0208s]
+  rtol 2.180433e-03
+  Linear systems solved: [nits 14, res 9.80e-15 99.54MB 0.0185s]
+  rtol 4.575577e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 3.77e-16 99.54MB 0.0644s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 146, res 5.18e-13 99.55MB 0.2506s]
+
+  rtol: V 2.075786e-01, P 1.109178e-02, N 5.650057e-02
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 2.03e-14 99.55MB 0.0223s]
+  rtol 2.496330e-03
+  Linear systems solved: [nits 14, res 1.56e-14 99.55MB 0.0478s]
+  rtol 5.699323e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 4.54e-16 99.55MB 0.1309s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 158, res 1.50e-14 99.56MB 0.3466s]
+
+  rtol: V 3.826347e-02, P 8.088339e-04, N 1.273964e-02
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 1.56e-14 99.56MB 0.0186s]
+  rtol 6.317662e-04
+  Linear systems solved: [nits 13, res 9.10e-15 99.56MB 0.0180s]
+  rtol 2.437473e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 8.50e-16 99.56MB 0.0649s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 168, res 4.50e-15 99.57MB 0.2804s]
+
+  rtol: V 8.508426e-03, P 2.314971e-04, N 5.819410e-03
+
+  ---- The 4-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 15, res 2.65e-14 99.57MB 0.0197s]
+  rtol 4.346093e-04
+  Linear systems solved: [nits 12, res 1.08e-14 99.57MB 0.0191s]
+  rtol 2.437504e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 8.32e-16 99.57MB 0.0642s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 170, res 1.92e-15 99.58MB 0.2831s]
+
+  rtol: V 6.705394e-03, P 6.298739e-05, N 3.991895e-03
+
+  ---- The 5-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 1.75e-14 99.58MB 0.0190s]
+  rtol 1.848519e-04
+  Linear systems solved: [nits 12, res 7.52e-15 99.58MB 0.0186s]
+  rtol 2.437533e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 4.17e-16 99.58MB 0.0654s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 160, res 9.22e-16 99.59MB 0.2674s]
+
+  rtol: V 2.863633e-03, P 3.348954e-05, N 1.238855e-03
+
+  ---- The 6-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 1.45e-14 99.59MB 0.0188s]
+  rtol 4.433883e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 4.68e-16 99.59MB 0.0655s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 150, res 9.78e-16 99.59MB 0.2541s]
+
+  rtol: V 6.743221e-04, P 1.619378e-05, N 4.203213e-04
+
+  ---- The 7-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 6.41e-15 99.59MB 0.0189s]
+  rtol 3.028323e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 4.13e-16 99.59MB 0.0654s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 155, res 9.58e-16 99.59MB 0.2619s]
+
+  rtol: V 4.653714e-04, P 1.720775e-05, N 3.005231e-04
+
+  ---- The 8-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 2.83e-14 99.59MB 0.0177s]
+  rtol 2.437577e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 17, res 7.65e-16 99.59MB 0.0612s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 147, res 7.26e-16 99.61MB 0.2501s]
+
+  rtol: V 2.102198e-04, P 1.769861e-05, N 8.932707e-05
+
+  ---- The 9-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 1.60e-14 99.61MB 0.0183s]
+  rtol 2.437592e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 4.15e-16 99.61MB 0.0703s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 148, res 6.82e-16 99.62MB 0.5769s]
+
+  rtol: V 4.882887e-05, P 1.770515e-05, N 3.364648e-05
+  Converged!
+
+  Currents (V_g: -0.1500 V_d: 0.1000): source: 6.0705e-06, drain: -6.0705e-06, substrate: 1.5332e-17
+
+  =========== V_g: -0.1000, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 1.51e-14 99.62MB 0.0550s]
+  rtol 1.835411e-02
+  Linear systems solved: [nits 17, res 5.40e-15 99.62MB 0.0298s]
+  rtol 1.430720e-03
+  Linear systems solved: [nits 13, res 2.45e-14 99.62MB 0.0191s]
+  rtol 2.437555e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 4.45e-16 99.62MB 0.0696s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 148, res 3.67e-13 99.62MB 0.4811s]
+
+  rtol: V 1.557138e-01, P 9.822188e-03, N 4.251875e-02
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 1.98e-14 99.62MB 0.0673s]
+  rtol 1.845733e-03
+  Linear systems solved: [nits 14, res 1.29e-14 99.62MB 0.0195s]
+  rtol 3.302002e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 5.68e-16 99.63MB 0.0633s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 158, res 1.53e-14 99.63MB 0.4378s]
+
+  rtol: V 2.866864e-02, P 8.220655e-04, N 9.024734e-03
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 1.37e-14 99.63MB 0.0411s]
+  rtol 5.464791e-04
+  Linear systems solved: [nits 12, res 2.86e-14 99.63MB 0.0387s]
+  rtol 2.438317e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 3.74e-16 99.63MB 0.0661s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 163, res 5.08e-15 99.64MB 0.2740s]
+
+  rtol: V 7.400852e-03, P 2.234371e-04, N 4.840817e-03
+
+  ---- The 4-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 15, res 2.57e-14 99.64MB 0.0185s]
+  rtol 3.740056e-04
+  Linear systems solved: [nits 12, res 1.09e-14 99.64MB 0.0174s]
+  rtol 2.438349e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 17, res 8.24e-16 99.65MB 0.0645s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 170, res 2.52e-15 99.65MB 0.2883s]
+
+  rtol: V 5.792836e-03, P 5.851428e-05, N 3.378422e-03
+
+  ---- The 5-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 1.71e-14 99.65MB 0.0192s]
+  rtol 1.601438e-04
+  Linear systems solved: [nits 12, res 8.44e-15 99.65MB 0.0202s]
+  rtol 2.438377e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 5.26e-16 99.66MB 0.0627s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 169, res 1.07e-15 99.66MB 0.2856s]
+
+  rtol: V 2.484134e-03, P 3.312040e-05, N 1.050824e-03
+
+  ---- The 6-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 1.93e-14 99.66MB 0.0175s]
+  rtol 3.927475e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 17, res 8.33e-16 99.66MB 0.0643s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 150, res 8.45e-16 99.66MB 0.2548s]
+
+  rtol: V 5.966802e-04, P 1.600021e-05, N 3.985828e-04
+
+  ---- The 7-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 7.69e-15 99.66MB 0.0241s]
+  rtol 2.948736e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 17, res 5.04e-16 99.67MB 0.0606s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 156, res 9.68e-16 99.67MB 0.2640s]
+
+  rtol: V 4.549820e-04, P 1.715762e-05, N 2.902834e-04
+
+  ---- The 8-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 5.88e-15 99.67MB 0.0179s]
+  rtol 2.438421e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 8.78e-16 99.67MB 0.1273s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 149, res 7.45e-16 99.68MB 0.3642s]
+
+  rtol: V 2.094666e-04, P 1.770265e-05, N 8.865361e-05
+
+  ---- The 9-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 1.98e-14 99.68MB 0.0185s]
+  rtol 2.438436e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 16, res 8.62e-16 99.68MB 0.0639s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 143, res 8.21e-16 99.69MB 0.2448s]
+
+  rtol: V 4.997890e-05, P 1.772196e-05, N 3.591933e-05
+  Converged!
+
+  Currents (V_g: -0.1000 V_d: 0.1000): source: 7.7905e-06, drain: -7.7905e-06, substrate: 1.5404e-17
+
+  =========== V_g: -0.0500, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 1.70e-14 99.69MB 0.0199s]
+  rtol 1.835995e-02
+  Linear systems solved: [nits 16, res 1.92e-14 99.69MB 0.0191s]
+  rtol 9.844481e-04
+  Linear systems solved: [nits 13, res 1.83e-14 99.69MB 0.0181s]
+  rtol 2.438399e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 7.19e-16 99.7MB 0.0600s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 150, res 3.93e-13 99.7MB 0.2563s]
+
+  rtol: V 1.224707e-01, P 8.463556e-03, N 3.133502e-02
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 1.79e-14 99.7MB 0.0210s]
+  rtol 1.400404e-03
+  Linear systems solved: [nits 14, res 9.99e-15 99.7MB 0.0200s]
+  rtol 2.439133e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 8.24e-16 99.71MB 0.0585s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 158, res 1.68e-14 99.71MB 0.2967s]
+
+  rtol: V 2.184282e-02, P 8.190254e-04, N 6.538181e-03
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 1.31e-14 99.71MB 0.0230s]
+  rtol 4.735178e-04
+  Linear systems solved: [nits 12, res 2.57e-14 99.71MB 0.0197s]
+  rtol 2.439171e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 3.55e-16 99.72MB 0.2927s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 161, res 4.52e-15 99.72MB 0.2790s]
+
+  rtol: V 6.477615e-03, P 2.146288e-04, N 4.104158e-03
+
+  ---- The 4-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 15, res 2.72e-14 99.72MB 0.0201s]
+  rtol 3.205368e-04
+  Linear systems solved: [nits 12, res 1.20e-14 99.72MB 0.0188s]
+  rtol 2.439203e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 4.07e-16 99.73MB 0.0592s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 162, res 2.58e-15 99.73MB 0.2775s]
+
+  rtol: V 4.979013e-03, P 5.415895e-05, N 2.858129e-03
+
+  ---- The 5-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 1.89e-14 99.73MB 0.0175s]
+  rtol 1.370600e-04
+  Linear systems solved: [nits 12, res 9.00e-15 99.73MB 0.0169s]
+  rtol 2.439231e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 5.74e-16 99.73MB 0.0593s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 158, res 1.21e-15 99.73MB 0.4560s]
+
+  rtol: V 2.134494e-03, P 3.284514e-05, N 8.872029e-04
+
+  ---- The 6-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 2.09e-14 99.73MB 0.0192s]
+  rtol 3.377122e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 5.26e-16 99.74MB 0.0585s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 144, res 9.06e-16 99.75MB 0.2488s]
+
+  rtol: V 5.118582e-04, P 1.586794e-05, N 3.665002e-04
+
+  ---- The 7-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 9.25e-15 99.75MB 0.0191s]
+  rtol 2.769640e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 3.60e-16 99.75MB 0.0637s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 150, res 7.59e-16 99.75MB 0.2599s]
+
+  rtol: V 4.282054e-04, P 1.712058e-05, N 2.683551e-04
+
+  ---- The 8-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 6.17e-15 99.75MB 0.0193s]
+  rtol 2.439275e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 5.15e-16 99.75MB 0.0586s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 148, res 8.96e-16 99.75MB 0.2534s]
+
+  rtol: V 1.984399e-04, P 1.772503e-05, N 8.225638e-05
+
+  ---- The 9-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 2.75e-14 99.75MB 0.0183s]
+  rtol 2.439290e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 4.51e-16 99.75MB 0.0590s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 143, res 8.95e-16 99.75MB 0.2461s]
+
+  rtol: V 4.718919e-05, P 1.772712e-05, N 3.598969e-05
+  Converged!
+
+  Currents (V_g: -0.0500 V_d: 0.1000): source: 9.6173e-06, drain: -9.6173e-06, substrate: 1.5451e-17
+
+  =========== V_g: 0.0000, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 1.37e-14 99.75MB 0.0210s]
+  rtol 1.836585e-02
+  Linear systems solved: [nits 17, res 5.82e-15 99.75MB 0.0218s]
+  rtol 7.086634e-04
+  Linear systems solved: [nits 13, res 1.27e-14 99.75MB 0.0198s]
+  rtol 2.439254e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 9.85e-16 99.76MB 0.0567s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 149, res 4.44e-13 99.77MB 0.2536s]
+
+  rtol: V 9.906463e-02, P 7.325319e-03, N 2.415938e-02
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 2.26e-14 99.77MB 0.0194s]
+  rtol 1.088720e-03
+  Linear systems solved: [nits 14, res 1.04e-14 99.77MB 0.0189s]
+  rtol 2.439996e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 5.94e-16 99.77MB 0.0573s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 147, res 1.59e-14 99.78MB 0.2513s]
+
+  rtol: V 1.702948e-02, P 8.142078e-04, N 4.958064e-03
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 1.40e-14 99.78MB 0.0198s]
+  rtol 4.145748e-04
+  Linear systems solved: [nits 12, res 2.06e-14 99.78MB 0.0187s]
+  rtol 2.440035e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 6.82e-16 99.78MB 0.0584s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 161, res 5.67e-15 99.8MB 0.3419s]
+
+  rtol: V 5.717330e-03, P 2.070053e-04, N 3.523184e-03
+
+  ---- The 4-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 15, res 2.84e-14 99.8MB 0.0385s]
+  rtol 2.767338e-04
+  Linear systems solved: [nits 12, res 1.05e-14 99.8MB 0.0650s]
+  rtol 2.440066e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 5.51e-16 99.8MB 0.1097s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 164, res 2.72e-15 99.8MB 0.6386s]
+
+  rtol: V 4.307974e-03, P 5.038411e-05, N 2.441094e-03
+
+  ---- The 5-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 2.55e-14 99.8MB 0.0314s]
+  rtol 1.185713e-04
+  Linear systems solved: [nits 12, res 7.85e-15 99.8MB 0.0185s]
+  rtol 2.440095e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 7.26e-16 99.8MB 0.0571s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 149, res 1.30e-15 99.81MB 0.5447s]
+
+  rtol: V 1.846744e-03, P 3.259764e-05, N 7.467819e-04
+
+  ---- The 6-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 2.14e-14 99.81MB 0.0255s]
+  rtol 3.009187e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 3.38e-16 99.81MB 0.0577s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 148, res 7.49e-16 99.82MB 0.2538s]
+
+  rtol: V 4.355206e-04, P 1.579063e-05, N 3.336219e-04
+
+  ---- The 7-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 2.93e-14 99.82MB 0.0212s]
+  rtol 2.559375e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 4.52e-16 99.83MB 0.0579s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 148, res 9.52e-16 99.84MB 0.2594s]
+
+  rtol: V 3.964690e-04, P 1.710182e-05, N 2.442925e-04
+
+  ---- The 8-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 7.84e-15 99.84MB 0.0179s]
+  rtol 2.440139e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 8.72e-16 99.84MB 0.0561s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 146, res 9.71e-16 99.85MB 0.2524s]
+
+  rtol: V 1.831715e-04, P 1.772459e-05, N 7.390127e-05
+
+  ---- The 9-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 2.75e-14 99.85MB 0.0182s]
+  rtol 2.440154e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 8.50e-16 99.85MB 0.0558s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 143, res 6.94e-16 99.85MB 0.4193s]
+
+  rtol: V 4.288117e-05, P 1.773704e-05, N 3.520185e-05
+  Converged!
+
+  Currents (V_g: 0.0000 V_d: 0.1000): source: 1.1540e-05, drain: -1.1540e-05, substrate: 1.5484e-17
+
+  =========== V_g: 0.0500, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 1.50e-14 99.85MB 0.0217s]
+  rtol 1.837182e-02
+  Linear systems solved: [nits 17, res 7.18e-15 99.85MB 0.0213s]
+  rtol 5.302559e-04
+  Linear systems solved: [nits 13, res 9.44e-15 99.85MB 0.0193s]
+  rtol 2.440118e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 5.22e-16 99.85MB 0.0596s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 145, res 3.67e-13 99.86MB 0.2497s]
+
+  rtol: V 8.055512e-02, P 7.089109e-03, N 1.953710e-02
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 18, res 5.82e-15 99.86MB 0.0211s]
+  rtol 8.669348e-04
+  Linear systems solved: [nits 14, res 7.85e-15 99.86MB 0.0197s]
+  rtol 2.440869e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 7.86e-16 99.86MB 0.0607s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 156, res 1.78e-14 99.87MB 0.5634s]
+
+  rtol: V 1.364474e-02, P 8.092612e-04, N 3.817961e-03
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 1.41e-14 99.87MB 0.0213s]
+  rtol 3.680017e-04
+  Linear systems solved: [nits 12, res 1.73e-14 99.87MB 0.0200s]
+  rtol 2.440908e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 17, res 7.49e-16 99.87MB 0.0594s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 146, res 5.67e-15 99.87MB 0.2472s]
+
+  rtol: V 5.108771e-03, P 2.010412e-04, N 3.079836e-03
+
+  ---- The 4-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 6.89e-15 99.87MB 0.0187s]
+  rtol 2.417898e-04
+  Linear systems solved: [nits 12, res 9.02e-15 99.87MB 0.0177s]
+  rtol 2.440939e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 5.03e-16 99.87MB 0.0607s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 149, res 3.11e-15 99.87MB 0.2525s]
+
+  rtol: V 3.775587e-03, P 4.713460e-05, N 2.112788e-03
+
+  ---- The 5-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 2.64e-14 99.87MB 0.0243s]
+  rtol 1.033385e-04
+  Linear systems solved: [nits 12, res 5.95e-15 99.87MB 0.0183s]
+  rtol 2.440967e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 4.22e-16 99.87MB 0.0605s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 150, res 1.37e-15 99.88MB 0.2539s]
+
+  rtol: V 1.609475e-03, P 3.237841e-05, N 6.321633e-04
+
+  ---- The 6-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 1.67e-14 99.88MB 0.0183s]
+  rtol 2.805918e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 9.16e-16 99.88MB 0.0596s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 147, res 8.73e-16 99.88MB 0.2550s]
+
+  rtol: V 3.879780e-04, P 1.573309e-05, N 3.058876e-04
+
+  ---- The 7-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 2.68e-14 99.88MB 0.0207s]
+  rtol 2.440996e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 9.62e-16 99.89MB 0.0598s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 146, res 7.62e-16 99.9MB 0.5372s]
+
+  rtol: V 3.650572e-04, P 1.708340e-05, N 2.217464e-04
+
+  ---- The 8-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 6.57e-15 99.9MB 0.0204s]
+  rtol 2.441011e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 9.11e-16 99.9MB 0.0597s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 146, res 8.35e-16 99.91MB 0.6635s]
+
+  rtol: V 1.674853e-04, P 1.773806e-05, N 6.555232e-05
+
+  ---- The 9-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 2.81e-14 99.91MB 0.0364s]
+  rtol 2.441027e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 6.19e-16 99.91MB 0.1226s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 143, res 9.61e-16 99.91MB 0.3138s]
+
+  rtol: V 4.092177e-05, P 1.773288e-05, N 3.410604e-05
+  Converged!
+
+  Currents (V_g: 0.0500 V_d: 0.1000): source: 1.3552e-05, drain: -1.3552e-05, substrate: 1.5509e-17
+
+  =========== V_g: 0.1000, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 1.35e-14 99.91MB 0.0207s]
+  rtol 1.837785e-02
+  Linear systems solved: [nits 16, res 2.45e-14 99.91MB 0.0206s]
+  rtol 4.121331e-04
+  Linear systems solved: [nits 12, res 2.39e-14 99.91MB 0.0187s]
+  rtol 2.440992e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 9.36e-16 99.91MB 0.0576s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 144, res 4.33e-13 99.92MB 0.2498s]
+
+  rtol: V 6.795199e-02, P 7.081075e-03, N 1.608578e-02
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 18, res 6.07e-15 99.92MB 0.0195s]
+  rtol 7.067188e-04
+  Linear systems solved: [nits 14, res 7.18e-15 99.92MB 0.0184s]
+  rtol 2.441750e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 8.13e-16 99.92MB 0.0633s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 149, res 1.81e-14 99.93MB 0.2560s]
+
+  rtol: V 1.113464e-02, P 8.049046e-04, N 3.042504e-03
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 1.05e-14 99.93MB 0.0194s]
+  rtol 3.313322e-04
+  Linear systems solved: [nits 12, res 1.50e-14 99.93MB 0.0188s]
+  rtol 2.441789e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 6.73e-16 99.94MB 0.0601s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 149, res 6.00e-15 99.95MB 0.2585s]
+
+  rtol: V 4.625221e-03, P 1.965659e-04, N 2.749104e-03
+
+  ---- The 4-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 5.03e-15 99.95MB 0.0198s]
+  rtol 2.148620e-04
+  Linear systems solved: [nits 12, res 7.86e-15 99.95MB 0.0173s]
+  rtol 2.441820e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 5.49e-16 99.95MB 0.0600s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 148, res 3.36e-15 99.96MB 0.3680s]
+
+  rtol: V 3.366230e-03, P 4.439707e-05, N 1.873927e-03
+
+  ---- The 5-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 2.83e-14 99.96MB 0.0870s]
+  rtol 9.097970e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 8.45e-16 99.96MB 0.3575s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 148, res 1.15e-15 99.97MB 0.3683s]
+
+  rtol: V 1.415807e-03, P 1.478965e-05, N 5.417435e-04
+
+  ---- The 6-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 1.59e-14 99.97MB 0.0190s]
+  rtol 2.652098e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 7.28e-16 99.97MB 0.0605s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 147, res 7.23e-16 99.98MB 0.2538s]
+
+  rtol: V 3.733006e-04, P 1.554112e-05, N 2.834315e-04
+
+  ---- The 7-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 2.50e-14 99.98MB 0.0183s]
+  rtol 2.441863e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 6.88e-16 99.98MB 0.0599s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 144, res 7.63e-16 99.99MB 0.2492s]
+
+  rtol: V 3.378542e-04, P 1.708903e-05, N 2.028606e-04
+
+  ---- The 8-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 6.55e-15 99.99MB 0.0188s]
+  rtol 2.441878e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 3.88e-16 99.99MB 0.0615s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 144, res 9.23e-16 99.99MB 0.2488s]
+
+  rtol: V 1.538209e-04, P 1.774251e-05, N 5.900209e-05
+
+  ---- The 9-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 2.71e-14 99.99MB 0.0186s]
+  rtol 2.441893e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 4.81e-16 99.99MB 0.0612s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 142, res 8.67e-16 100MB 0.4804s]
+
+  rtol: V 4.054527e-05, P 1.771805e-05, N 3.296818e-05
+  Converged!
+
+  Currents (V_g: 0.1000 V_d: 0.1000): source: 1.5648e-05, drain: -1.5648e-05, substrate: 1.5524e-17
+
+  =========== V_g: 0.1500, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 1.18e-14 100MB 0.0201s]
+  rtol 1.838385e-02
+  Linear systems solved: [nits 16, res 1.33e-14 100MB 0.0208s]
+  rtol 3.307694e-04
+  Linear systems solved: [nits 12, res 1.86e-14 100MB 0.0185s]
+  rtol 2.441864e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 5.48e-16 100MB 0.0595s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 141, res 4.31e-13 100MB 0.2531s]
+
+  rtol: V 5.717558e-02, P 6.599649e-03, N 1.373870e-02
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 2.55e-14 100MB 0.0547s]
+  rtol 5.974162e-04
+  Linear systems solved: [nits 14, res 6.35e-15 100MB 0.0399s]
+  rtol 2.442590e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 4.25e-16 100MB 0.1421s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 146, res 1.73e-14 100MB 0.5081s]
+
+  rtol: V 9.420613e-03, P 8.048208e-04, N 2.747535e-03
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 9.49e-15 100MB 0.0221s]
+  rtol 3.013674e-04
+  Linear systems solved: [nits 12, res 1.33e-14 100MB 0.0208s]
+  rtol 2.442630e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 3.35e-16 100MB 0.0589s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 148, res 5.98e-15 100MB 0.2524s]
+
+  rtol: V 4.227172e-03, P 1.937453e-04, N 2.478976e-03
+
+  ---- The 4-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 15, res 1.91e-14 100MB 0.0186s]
+  rtol 1.933129e-04
+  Linear systems solved: [nits 12, res 6.98e-15 100MB 0.0214s]
+  rtol 2.442660e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 17, res 6.12e-16 100MB 0.0575s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 145, res 3.13e-15 100MB 0.2550s]
+
+  rtol: V 3.030674e-03, P 4.210009e-05, N 1.692715e-03
+
+  ---- The 5-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 2.58e-14 100MB 0.0193s]
+  rtol 8.083110e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 3.75e-16 100MB 0.0601s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 147, res 1.36e-15 100MB 0.2541s]
+
+  rtol: V 1.257900e-03, P 1.463101e-05, N 4.742406e-04
+
+  ---- The 6-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 1.52e-14 100MB 0.0199s]
+  rtol 2.483552e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 9.53e-16 100MB 0.0642s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 146, res 8.74e-16 100.1MB 0.2499s]
+
+  rtol: V 3.550207e-04, P 1.548072e-05, N 2.626130e-04
+
+  ---- The 7-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 2.37e-14 100.1MB 0.0233s]
+  rtol 2.442703e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 7.33e-16 100.1MB 0.0596s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 143, res 7.34e-16 100.1MB 0.2470s]
+
+  rtol: V 3.121428e-04, P 1.709887e-05, N 1.882142e-04
+
+  ---- The 8-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 6.47e-15 100.1MB 0.0212s]
+  rtol 2.442718e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 9.93e-16 100.1MB 0.0601s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 139, res 8.06e-16 100.1MB 0.2429s]
+
+  rtol: V 1.405844e-04, P 1.773635e-05, N 5.291022e-05
+
+  ---- The 9-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 2.58e-14 100.1MB 0.0181s]
+  rtol 2.442733e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 9.12e-16 100.1MB 0.0628s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 142, res 9.44e-16 100.1MB 0.2841s]
+
+  rtol: V 3.981657e-05, P 1.771936e-05, N 3.165827e-05
+  Converged!
+
+  Currents (V_g: 0.1500 V_d: 0.1000): source: 1.7825e-05, drain: -1.7825e-05, substrate: 1.5515e-17
+
+  =========== V_g: 0.2000, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 1.14e-14 100.1MB 0.0403s]
+  rtol 1.838962e-02
+  Linear systems solved: [nits 16, res 8.51e-15 100.1MB 0.0407s]
+  rtol 2.711658e-04
+  Linear systems solved: [nits 12, res 1.57e-14 100.1MB 0.0382s]
+  rtol 2.442705e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 3.44e-16 100.1MB 0.1220s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 141, res 4.17e-13 100.1MB 0.3456s]
+
+  rtol: V 4.948509e-02, P 6.592492e-03, N 1.170841e-02
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 2.04e-14 100.1MB 0.0533s]
+  rtol 5.035395e-04
+  Linear systems solved: [nits 14, res 6.15e-15 100.1MB 0.0399s]
+  rtol 2.443438e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 3.72e-16 100.1MB 0.1645s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 147, res 1.57e-14 100.1MB 0.2823s]
+
+  rtol: V 7.965108e-03, P 8.018371e-04, N 2.532365e-03
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 9.25e-15 100.1MB 0.0200s]
+  rtol 2.783323e-04
+  Linear systems solved: [nits 12, res 1.21e-14 100.1MB 0.0186s]
+  rtol 2.443478e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 17, res 8.38e-16 100.1MB 0.0807s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 146, res 7.17e-15 100.1MB 0.3547s]
+
+  rtol: V 3.920033e-03, P 1.919838e-04, N 2.268342e-03
+
+  ---- The 4-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 15, res 1.75e-14 100.1MB 0.0581s]
+  rtol 1.763040e-04
+  Linear systems solved: [nits 12, res 6.38e-15 100.1MB 0.0412s]
+  rtol 2.443509e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 4.70e-16 100.1MB 0.1204s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 143, res 3.15e-15 100.1MB 0.3038s]
+
+  rtol: V 2.765506e-03, P 4.007006e-05, N 1.547024e-03
+
+  ---- The 5-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 2.47e-14 100.1MB 0.0189s]
+  rtol 7.271668e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 4.64e-16 100.1MB 0.1320s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 146, res 1.81e-15 100.1MB 0.3579s]
+
+  rtol: V 1.131545e-03, P 1.444063e-05, N 4.195437e-04
+
+  ---- The 6-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 1.46e-14 100.1MB 0.0191s]
+  rtol 2.443537e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 17, res 8.11e-16 100.1MB 0.0579s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 145, res 9.68e-16 100.2MB 0.2461s]
+
+  rtol: V 3.397834e-04, P 1.542642e-05, N 2.455983e-04
+
+  ---- The 7-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 2.26e-14 100.2MB 0.0202s]
+  rtol 2.443551e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 7.49e-16 100.2MB 0.0589s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 142, res 8.30e-16 100.2MB 0.2421s]
+
+  rtol: V 2.907571e-04, P 1.708945e-05, N 1.762126e-04
+
+  ---- The 8-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 6.45e-15 100.2MB 0.0186s]
+  rtol 2.443567e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 6.40e-16 100.2MB 0.0578s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 142, res 7.78e-16 100.2MB 0.2418s]
+
+  rtol: V 1.299099e-04, P 1.775346e-05, N 4.763499e-05
+
+  ---- The 9-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 2.47e-14 100.2MB 0.0175s]
+  rtol 2.443582e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 7.09e-16 100.2MB 0.0587s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 137, res 8.95e-16 100.2MB 0.2368s]
+
+  rtol: V 3.916113e-05, P 1.771192e-05, N 3.052989e-05
+  Converged!
+
+  Currents (V_g: 0.2000 V_d: 0.1000): source: 2.0078e-05, drain: -2.0078e-05, substrate: 1.5522e-17
+
+  =========== V_g: 0.2500, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 1.28e-14 100.2MB 0.0211s]
+  rtol 1.839546e-02
+  Linear systems solved: [nits 16, res 5.72e-15 100.2MB 0.0225s]
+  rtol 2.262625e-04
+  Linear systems solved: [nits 12, res 1.33e-14 100.2MB 0.0195s]
+  rtol 2.443554e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 9.93e-16 100.2MB 0.0574s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 142, res 3.49e-13 100.2MB 0.2431s]
+
+  rtol: V 4.331665e-02, P 6.585359e-03, N 1.012589e-02
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 1.81e-14 100.2MB 0.0204s]
+  rtol 4.321683e-04
+  Linear systems solved: [nits 14, res 5.96e-15 100.2MB 0.0207s]
+  rtol 2.444295e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 9.65e-16 100.2MB 0.0583s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 141, res 1.87e-14 100.2MB 0.2438s]
+
+  rtol: V 6.837394e-03, P 7.995135e-04, N 2.362225e-03
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 9.03e-15 100.2MB 0.0215s]
+  rtol 2.599004e-04
+  Linear systems solved: [nits 12, res 1.10e-14 100.2MB 0.0197s]
+  rtol 2.444335e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 7.66e-16 100.2MB 0.0567s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 141, res 7.22e-15 100.2MB 0.2438s]
+
+  rtol: V 3.673455e-03, P 1.912822e-04, N 2.110889e-03
+
+  ---- The 4-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 15, res 1.81e-14 100.2MB 0.0207s]
+  rtol 1.625363e-04
+  Linear systems solved: [nits 12, res 6.02e-15 100.2MB 0.0198s]
+  rtol 2.444365e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 4.47e-16 100.2MB 0.0580s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 141, res 4.31e-15 100.2MB 0.2416s]
+
+  rtol: V 2.550604e-03, P 3.826807e-05, N 1.427231e-03
+
+  ---- The 5-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 2.53e-14 100.2MB 0.0191s]
+  rtol 6.629937e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 8.62e-16 100.2MB 0.0561s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 144, res 1.86e-15 100.2MB 0.2479s]
+
+  rtol: V 1.033492e-03, P 1.425332e-05, N 3.745239e-04
+
+  ---- The 6-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 1.41e-14 100.2MB 0.0472s]
+  rtol 2.444393e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 4.53e-16 100.2MB 0.1574s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 140, res 6.99e-16 100.2MB 0.3934s]
+
+  rtol: V 3.267051e-04, P 1.536309e-05, N 2.314045e-04
+
+  ---- The 7-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 2.25e-14 100.2MB 0.0427s]
+  rtol 2.444408e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 17, res 9.05e-16 100.2MB 0.1290s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 136, res 7.72e-16 100.2MB 0.5470s]
+
+  rtol: V 2.726495e-04, P 1.707868e-05, N 1.658161e-04
+
+  ---- The 8-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 6.48e-15 100.2MB 0.0207s]
+  rtol 2.444423e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 8.70e-16 100.2MB 0.0571s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 141, res 8.89e-16 100.2MB 0.2439s]
+
+  rtol: V 1.210482e-04, P 1.776488e-05, N 4.306596e-05
+
+  ---- The 9-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 2.37e-14 100.2MB 0.0195s]
+  rtol 2.444439e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 4.95e-16 100.2MB 0.0577s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 134, res 9.17e-16 100.2MB 0.2358s]
+
+  rtol: V 3.855001e-05, P 1.770926e-05, N 2.976146e-05
+  Converged!
+
+  Currents (V_g: 0.2500 V_d: 0.1000): source: 2.2406e-05, drain: -2.2406e-05, substrate: 1.5506e-17
+
+  =========== V_g: 0.3000, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 1.30e-14 100.2MB 0.0558s]
+  rtol 1.840135e-02
+  Linear systems solved: [nits 15, res 2.41e-14 100.2MB 0.0400s]
+  rtol 1.916247e-04
+  Linear systems solved: [nits 12, res 1.10e-14 100.2MB 0.0381s]
+  rtol 2.444411e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 7.34e-16 100.2MB 0.1779s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 141, res 3.45e-13 100.2MB 0.2566s]
+
+  rtol: V 3.783094e-02, P 6.578200e-03, N 8.861435e-03
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 1.60e-14 100.2MB 0.0224s]
+  rtol 4.148959e-04
+  Linear systems solved: [nits 14, res 5.84e-15 100.2MB 0.0206s]
+  rtol 2.445159e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 5.25e-16 100.2MB 0.0591s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 141, res 1.73e-14 100.2MB 0.2531s]
+
+  rtol: V 5.933973e-03, P 7.977628e-04, N 2.226661e-03
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 8.82e-15 100.2MB 0.0202s]
+  rtol 2.450608e-04
+  Linear systems solved: [nits 12, res 9.99e-15 100.2MB 0.0201s]
+  rtol 2.445199e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 6.72e-16 100.2MB 0.0567s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 143, res 6.60e-15 100.2MB 0.2548s]
+
+  rtol: V 3.474493e-03, P 1.914738e-04, N 1.984934e-03
+
+  ---- The 4-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 15, res 1.77e-14 100.2MB 0.0203s]
+  rtol 1.513322e-04
+  Linear systems solved: [nits 12, res 5.75e-15 100.2MB 0.0198s]
+  rtol 2.445230e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 9.45e-16 100.2MB 0.0573s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 140, res 4.32e-15 100.2MB 0.2751s]
+
+  rtol: V 2.375520e-03, P 3.668009e-05, N 1.328414e-03
+
+  ---- The 5-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 2.59e-14 100.2MB 0.0403s]
+  rtol 6.121981e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 5.64e-16 100.2MB 0.1288s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 141, res 1.64e-15 100.2MB 0.2895s]
+
+  rtol: V 9.539440e-04, P 1.405511e-05, N 3.371785e-04
+
+  ---- The 6-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 1.37e-14 100.2MB 0.0243s]
+  rtol 2.445257e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 4.72e-16 100.2MB 0.0573s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 140, res 8.23e-16 100.2MB 0.2510s]
+
+  rtol: V 3.156827e-04, P 1.530379e-05, N 2.197383e-04
+
+  ---- The 7-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 2.33e-14 100.2MB 0.0183s]
+  rtol 2.445272e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 5.43e-16 100.2MB 0.0567s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 134, res 7.98e-16 100.2MB 0.2426s]
+
+  rtol: V 2.573995e-04, P 1.707274e-05, N 1.568951e-04
+
+  ---- The 8-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 6.55e-15 100.2MB 0.0247s]
+  rtol 2.445288e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 9.65e-16 100.2MB 0.0618s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 134, res 8.23e-16 100.2MB 0.2680s]
+
+  rtol: V 1.134526e-04, P 1.776720e-05, N 3.909520e-05
+
+  ---- The 9-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 2.27e-14 100.2MB 0.0212s]
+  rtol 2.445303e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 4.09e-16 100.2MB 0.0617s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 139, res 6.45e-16 100.2MB 0.4837s]
+
+  rtol: V 3.802027e-05, P 1.770833e-05, N 2.912004e-05
+  Converged!
+
+  Currents (V_g: 0.3000 V_d: 0.1000): source: 2.4806e-05, drain: -2.4806e-05, substrate: 1.5513e-17
+
+  =========== V_g: 0.3500, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 1.19e-14 100.2MB 0.0235s]
+  rtol 1.840730e-02
+  Linear systems solved: [nits 15, res 1.83e-14 100.2MB 0.0208s]
+  rtol 1.643593e-04
+  Linear systems solved: [nits 12, res 8.94e-15 100.2MB 0.0241s]
+  rtol 2.445276e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 4.95e-16 100.2MB 0.0591s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 139, res 4.17e-13 100.2MB 0.2409s]
+
+  rtol: V 3.343534e-02, P 6.571042e-03, N 7.838496e-03
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 1.43e-14 100.2MB 0.0213s]
+  rtol 4.093315e-04
+  Linear systems solved: [nits 13, res 2.85e-14 100.2MB 0.0194s]
+  rtol 2.446030e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 17, res 9.88e-16 100.2MB 0.0563s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 140, res 1.70e-14 100.2MB 0.2440s]
+
+  rtol: V 5.204952e-03, P 7.965082e-04, N 2.117978e-03
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 8.63e-15 100.2MB 0.0250s]
+  rtol 2.330484e-04
+  Linear systems solved: [nits 12, res 9.21e-15 100.2MB 0.0204s]
+  rtol 2.446072e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 5.93e-16 100.2MB 0.0574s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 140, res 8.36e-15 100.2MB 0.4321s]
+
+  rtol: V 3.313230e-03, P 1.924369e-04, N 1.882274e-03
+
+  ---- The 4-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 15, res 1.73e-14 100.2MB 0.0210s]
+  rtol 1.421686e-04
+  Linear systems solved: [nits 12, res 5.57e-15 100.2MB 0.0199s]
+  rtol 2.446102e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 6.90e-16 100.2MB 0.0568s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 139, res 4.75e-15 100.2MB 0.2469s]
+
+  rtol: V 2.232171e-03, P 3.526015e-05, N 1.246610e-03
+
+  ---- The 5-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 2.62e-14 100.2MB 0.0202s]
+  rtol 5.701409e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 6.93e-16 100.2MB 0.0602s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 138, res 2.29e-15 100.2MB 0.2419s]
+
+  rtol: V 8.880469e-04, P 1.383943e-05, N 3.060044e-04
+
+  ---- The 6-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 1.35e-14 100.2MB 0.0190s]
+  rtol 2.446129e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 6.68e-16 100.2MB 0.0567s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 139, res 9.69e-16 100.2MB 0.2418s]
+
+  rtol: V 3.065206e-04, P 1.522779e-05, N 2.111796e-04
+
+  ---- The 7-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 2.46e-14 100.2MB 0.0196s]
+  rtol 2.446145e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 7.39e-16 100.2MB 0.0578s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 134, res 8.80e-16 100.2MB 0.2357s]
+
+  rtol: V 2.447235e-04, P 1.707935e-05, N 1.492831e-04
+
+  ---- The 8-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 6.60e-15 100.2MB 0.0205s]
+  rtol 2.446160e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 6.25e-16 100.2MB 0.0572s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 138, res 9.88e-16 100.2MB 0.2396s]
+
+  rtol: V 1.069640e-04, P 1.777372e-05, N 3.565035e-05
+
+  ---- The 9-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 2.20e-14 100.2MB 0.0197s]
+  rtol 2.446175e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 7.50e-16 100.2MB 0.0603s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 138, res 6.49e-16 100.2MB 0.2441s]
+
+  rtol: V 3.758626e-05, P 1.769847e-05, N 2.859467e-05
+  Converged!
+
+  Currents (V_g: 0.3500 V_d: 0.1000): source: 2.7276e-05, drain: -2.7276e-05, substrate: 1.5505e-17
+
+  =========== V_g: 0.4000, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 1.09e-14 100.2MB 0.0210s]
+  rtol 1.841330e-02
+  Linear systems solved: [nits 15, res 1.46e-14 100.2MB 0.0201s]
+  rtol 1.425193e-04
+  Linear systems solved: [nits 12, res 7.42e-15 100.2MB 0.0189s]
+  rtol 2.446148e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 9.73e-16 100.2MB 0.0579s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 138, res 4.29e-13 100.2MB 0.4267s]
+
+  rtol: V 2.990818e-02, P 6.563868e-03, N 7.002898e-03
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 1.32e-14 100.2MB 0.0383s]
+  rtol 4.068908e-04
+  Linear systems solved: [nits 13, res 2.71e-14 100.2MB 0.0524s]
+  rtol 2.446910e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 6.13e-16 100.2MB 0.0825s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 139, res 1.90e-14 100.2MB 0.3832s]
+
+  rtol: V 4.631659e-03, P 7.956677e-04, N 2.030440e-03
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 8.94e-15 100.2MB 0.0528s]
+  rtol 2.232813e-04
+  Linear systems solved: [nits 12, res 8.63e-15 100.2MB 0.0214s]
+  rtol 2.446952e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 5.69e-16 100.2MB 0.0674s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 133, res 7.05e-15 100.2MB 0.5965s]
+
+  rtol: V 3.185554e-03, P 1.940425e-04, N 1.802864e-03
+
+  ---- The 4-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 15, res 1.73e-14 100.2MB 0.0211s]
+  rtol 1.346419e-04
+  Linear systems solved: [nits 11, res 2.93e-14 100.2MB 0.0192s]
+  rtol 2.446982e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 5.27e-16 100.2MB 0.0643s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 137, res 4.87e-15 100.2MB 0.2422s]
+
+  rtol: V 2.114301e-03, P 3.419175e-05, N 1.178660e-03
+
+  ---- The 5-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 2.67e-14 100.2MB 0.0192s]
+  rtol 5.351600e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 8.98e-16 100.2MB 0.0611s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 138, res 2.06e-15 100.2MB 0.2452s]
+
+  rtol: V 8.332036e-04, P 1.359739e-05, N 2.822072e-04
+
+  ---- The 6-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 1.34e-14 100.2MB 0.0194s]
+  rtol 2.447009e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 4.43e-16 100.2MB 0.0608s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 137, res 1.13e-15 100.2MB 0.2439s]
+
+  rtol: V 2.989985e-04, P 1.516784e-05, N 2.041734e-04
+
+  ---- The 7-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 2.60e-14 100.2MB 0.0185s]
+  rtol 2.447024e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 3.47e-16 100.2MB 0.0624s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 137, res 6.23e-16 100.2MB 0.2389s]
+
+  rtol: V 2.349386e-04, P 1.706671e-05, N 1.428110e-04
+
+  ---- The 8-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 6.63e-15 100.2MB 0.0212s]
+  rtol 2.447040e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 17, res 8.21e-16 100.2MB 0.0597s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 138, res 9.13e-16 100.2MB 0.2425s]
+
+  rtol: V 1.014291e-04, P 1.779937e-05, N 3.270460e-05
+
+  ---- The 9-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 2.17e-14 100.2MB 0.0203s]
+  rtol 2.447055e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 5.01e-16 100.2MB 0.0618s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 136, res 9.80e-16 100.2MB 0.2406s]
+
+  rtol: V 3.725006e-05, P 1.769185e-05, N 2.817727e-05
+  Converged!
+
+  Currents (V_g: 0.4000 V_d: 0.1000): source: 2.9815e-05, drain: -2.9815e-05, substrate: 1.5490e-17
+
+  =========== V_g: 0.4500, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 1.03e-14 100.2MB 0.0220s]
+  rtol 1.841937e-02
+  Linear systems solved: [nits 15, res 1.23e-14 100.2MB 0.0263s]
+  rtol 1.247577e-04
+  Linear systems solved: [nits 12, res 6.42e-15 100.2MB 0.0205s]
+  rtol 2.447029e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 6.23e-16 100.2MB 0.0607s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 137, res 3.87e-13 100.2MB 0.5300s]
+
+  rtol: V 2.688758e-02, P 6.556669e-03, N 6.903763e-03
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 1.25e-14 100.2MB 0.0204s]
+  rtol 4.061251e-04
+  Linear systems solved: [nits 13, res 2.63e-14 100.2MB 0.0190s]
+  rtol 2.447797e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 9.48e-16 100.2MB 0.0607s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 138, res 2.34e-14 100.2MB 0.2429s]
+
+  rtol: V 4.264437e-03, P 7.951890e-04, N 1.959721e-03
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 9.33e-15 100.2MB 0.0209s]
+  rtol 2.153133e-04
+  Linear systems solved: [nits 12, res 8.21e-15 100.2MB 0.0193s]
+  rtol 2.447839e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 3.16e-16 100.2MB 0.0629s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 137, res 7.76e-15 100.2MB 0.2497s]
+
+  rtol: V 3.096952e-03, P 1.962684e-04, N 1.742872e-03
+
+  ---- The 4-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 15, res 1.75e-14 100.2MB 0.0198s]
+  rtol 1.284388e-04
+  Linear systems solved: [nits 11, res 2.87e-14 100.2MB 0.0173s]
+  rtol 2.447869e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 9.79e-16 100.2MB 0.0598s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 137, res 5.21e-15 100.2MB 0.2409s]
+
+  rtol: V 2.017051e-03, P 3.380977e-05, N 1.121943e-03
+
+  ---- The 5-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 2.77e-14 100.2MB 0.0195s]
+  rtol 5.059452e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 4.78e-16 100.2MB 0.0589s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 137, res 2.54e-15 100.2MB 0.6019s]
+
+  rtol: V 7.873674e-04, P 1.337811e-05, N 2.631811e-04
+
+  ---- The 6-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 1.34e-14 100.2MB 0.0388s]
+  rtol 2.447897e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 5.17e-16 100.2MB 0.1320s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 133, res 1.13e-15 100.2MB 0.3970s]
+
+  rtol: V 2.929014e-04, P 1.507223e-05, N 1.984363e-04
+
+  ---- The 7-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 2.74e-14 100.2MB 0.0404s]
+  rtol 2.447912e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 4.14e-16 100.2MB 0.3934s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 130, res 7.39e-16 100.2MB 0.3475s]
+
+  rtol: V 2.267523e-04, P 1.706268e-05, N 1.371680e-04
+
+  ---- The 8-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 6.69e-15 100.2MB 0.0186s]
+  rtol 2.447927e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 6.57e-16 100.2MB 0.0583s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 137, res 9.82e-16 100.2MB 0.2458s]
+
+  rtol: V 9.670992e-05, P 1.778863e-05, N 3.047924e-05
+  Converged!
+
+  Currents (V_g: 0.4500 V_d: 0.1000): source: 3.2420e-05, drain: -3.2420e-05, substrate: 1.5480e-17
+
+  =========== V_g: 0.5000, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 1.84e-14 100.2MB 0.0209s]
+  rtol 1.842547e-02
+  Linear systems solved: [nits 15, res 1.05e-14 100.2MB 0.0202s]
+  rtol 1.100537e-04
+  Linear systems solved: [nits 12, res 5.69e-15 100.2MB 0.0189s]
+  rtol 2.447906e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 8.14e-16 100.2MB 0.0606s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 135, res 3.43e-13 100.2MB 0.2426s]
+
+  rtol: V 2.425725e-02, P 6.078861e-03, N 6.399314e-03
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 1.16e-14 100.2MB 0.0216s]
+  rtol 3.903852e-04
+  Linear systems solved: [nits 13, res 2.43e-14 100.2MB 0.0200s]
+  rtol 2.448640e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 4.50e-16 100.2MB 0.0614s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 135, res 2.39e-14 100.2MB 0.2427s]
+
+  rtol: V 4.042190e-03, P 7.978050e-04, N 1.895538e-03
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 9.32e-15 100.2MB 0.0205s]
+  rtol 2.079575e-04
+  Linear systems solved: [nits 12, res 7.85e-15 100.2MB 0.0186s]
+  rtol 2.448684e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 5.37e-16 100.2MB 0.0604s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 137, res 7.93e-15 100.2MB 0.2441s]
+
+  rtol: V 3.022583e-03, P 1.990811e-04, N 1.690165e-03
+
+  ---- The 4-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 15, res 1.74e-14 100.2MB 0.0199s]
+  rtol 1.228917e-04
+  Linear systems solved: [nits 11, res 2.81e-14 100.2MB 0.0186s]
+  rtol 2.448714e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 6.46e-16 100.2MB 0.0619s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 134, res 5.26e-15 100.2MB 0.6022s]
+
+  rtol: V 1.930057e-03, P 3.349932e-05, N 1.071908e-03
+
+  ---- The 5-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 2.86e-14 100.2MB 0.0471s]
+  rtol 4.792426e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 5.51e-16 100.2MB 0.1150s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 132, res 2.12e-15 100.2MB 0.2437s]
+
+  rtol: V 7.454647e-04, P 1.359439e-05, N 2.453832e-04
+
+  ---- The 6-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 1.35e-14 100.2MB 0.0192s]
+  rtol 2.448741e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 7.52e-16 100.2MB 0.0601s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 136, res 1.20e-15 100.2MB 0.2427s]
+
+  rtol: V 2.876104e-04, P 1.496314e-05, N 1.932769e-04
+
+  ---- The 7-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 13, res 2.90e-14 100.2MB 0.0192s]
+  rtol 2.448756e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 9.90e-16 100.2MB 0.0602s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 134, res 9.17e-16 100.2MB 0.2402s]
+
+  rtol: V 2.192215e-04, P 1.708180e-05, N 1.319344e-04
+
+  ---- The 8-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 6.77e-15 100.2MB 0.0211s]
+  rtol 2.448772e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 3.65e-16 100.2MB 0.0604s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 136, res 7.92e-16 100.2MB 0.2487s]
+
+  rtol: V 9.224954e-05, P 1.779804e-05, N 2.833481e-05
+  Converged!
+
+  Currents (V_g: 0.5000 V_d: 0.1000): source: 3.5091e-05, drain: -3.5091e-05, substrate: 1.5467e-17
+
+  =========== V_g: 0.5500, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 1.11e-14 100.2MB 0.0219s]
+  rtol 1.843127e-02
+  Linear systems solved: [nits 15, res 9.08e-15 100.2MB 0.0215s]
+  rtol 9.785190e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 5.56e-16 100.2MB 0.0620s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 133, res 3.73e-13 100.2MB 0.4677s]
+
+  rtol: V 2.281202e-02, P 6.086020e-03, N 6.389523e-03
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 1.13e-14 100.2MB 0.0203s]
+  rtol 3.895451e-04
+  Linear systems solved: [nits 13, res 2.39e-14 100.2MB 0.0189s]
+  rtol 2.449476e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 5.50e-16 100.2MB 0.0623s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 131, res 2.61e-14 100.2MB 0.2300s]
+
+  rtol: V 4.050043e-03, P 7.975480e-04, N 1.848994e-03
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 9.30e-15 100.2MB 0.0202s]
+  rtol 2.026166e-04
+  Linear systems solved: [nits 12, res 7.75e-15 100.2MB 0.0185s]
+  rtol 2.449521e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 7.08e-16 100.2MB 0.0674s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 135, res 9.36e-15 100.2MB 0.5614s]
+
+  rtol: V 2.964581e-03, P 2.023306e-04, N 1.656410e-03
+
+  ---- The 4-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 15, res 1.86e-14 100.2MB 0.0187s]
+  rtol 1.186506e-04
+  Linear systems solved: [nits 11, res 2.75e-14 100.2MB 0.0175s]
+  rtol 2.449550e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 6.12e-16 100.2MB 0.0597s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 133, res 5.75e-15 100.2MB 0.2320s]
+
+  rtol: V 1.863442e-03, P 3.315205e-05, N 1.033421e-03
+
+  ---- The 5-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 2.91e-14 100.2MB 0.0179s]
+  rtol 4.586498e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 3.89e-16 100.2MB 0.0602s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 134, res 2.57e-15 100.2MB 0.2396s]
+
+  rtol: V 7.131169e-04, P 1.406311e-05, N 2.315413e-04
+
+  ---- The 6-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 1.38e-14 100.2MB 0.0177s]
+  rtol 2.449578e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 6.35e-16 100.2MB 0.0593s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 133, res 1.16e-15 100.2MB 0.2348s]
+
+  rtol: V 2.837895e-04, P 1.487592e-05, N 1.894920e-04
+
+  ---- The 7-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 7.49e-15 100.2MB 0.0178s]
+  rtol 2.449593e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 4.63e-16 100.2MB 0.0620s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 133, res 7.59e-16 100.2MB 0.2386s]
+
+  rtol: V 2.135533e-04, P 1.704805e-05, N 1.281103e-04
+
+  ---- The 8-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 6.83e-15 100.2MB 0.0188s]
+  rtol 2.449609e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 9.34e-16 100.2MB 0.0610s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 134, res 9.54e-16 100.2MB 0.2408s]
+
+  rtol: V 8.882799e-05, P 1.781661e-05, N 2.662802e-05
+  Converged!
+
+  Currents (V_g: 0.5500 V_d: 0.1000): source: 3.7826e-05, drain: -3.7826e-05, substrate: 1.5471e-17
+
+  =========== V_g: 0.6000, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 1.35e-14 100.2MB 0.0194s]
+  rtol 1.843704e-02
+  Linear systems solved: [nits 15, res 8.34e-15 100.2MB 0.0189s]
+  rtol 8.757064e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 6.06e-16 100.2MB 0.0628s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 130, res 3.19e-13 100.2MB 0.2275s]
+
+  rtol: V 2.230251e-02, P 5.610175e-03, N 5.884375e-03
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 1.06e-14 100.2MB 0.0203s]
+  rtol 3.737773e-04
+  Linear systems solved: [nits 13, res 2.18e-14 100.2MB 0.0195s]
+  rtol 2.450283e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 2.84e-16 100.2MB 0.0662s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 134, res 2.73e-14 100.3MB 0.2371s]
+
+  rtol: V 3.871277e-03, P 7.997897e-04, N 1.805944e-03
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 9.40e-15 100.3MB 0.0186s]
+  rtol 1.971839e-04
+  Linear systems solved: [nits 12, res 7.75e-15 100.3MB 0.0172s]
+  rtol 2.450329e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 9.54e-16 100.3MB 0.0906s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 128, res 1.17e-14 100.3MB 0.4969s]
+
+  rtol: V 2.907640e-03, P 2.060390e-04, N 1.625442e-03
+
+  ---- The 4-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 15, res 1.77e-14 100.3MB 0.0402s]
+  rtol 1.146957e-04
+  Linear systems solved: [nits 11, res 2.73e-14 100.3MB 0.0335s]
+  rtol 2.450359e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 4.89e-16 100.3MB 0.2329s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 131, res 6.83e-15 100.3MB 0.3242s]
+
+  rtol: V 1.801254e-03, P 3.292254e-05, N 9.975733e-04
+
+  ---- The 5-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 15, res 5.06e-15 100.3MB 0.0186s]
+  rtol 4.397850e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 4.92e-16 100.3MB 0.0595s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 135, res 2.54e-15 100.3MB 0.3121s]
+
+  rtol: V 6.835008e-04, P 1.451049e-05, N 2.190827e-04
+
+  ---- The 6-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 1.45e-14 100.3MB 0.0403s]
+  rtol 2.450386e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 5.54e-16 100.3MB 0.1360s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 129, res 1.20e-15 100.3MB 0.3721s]
+
+  rtol: V 2.794442e-04, P 1.478241e-05, N 1.855626e-04
+
+  ---- The 7-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 7.73e-15 100.3MB 0.0201s]
+  rtol 2.450401e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 7.81e-16 100.3MB 0.0604s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 132, res 8.23e-16 100.3MB 0.2397s]
+
+  rtol: V 2.079648e-04, P 1.704185e-05, N 1.243965e-04
+
+  ---- The 8-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 6.93e-15 100.3MB 0.0187s]
+  rtol 2.450417e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 7.01e-16 100.3MB 0.0595s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 133, res 9.42e-16 100.3MB 0.2380s]
+
+  rtol: V 8.560164e-05, P 1.783285e-05, N 2.505996e-05
+  Converged!
+
+  Currents (V_g: 0.6000 V_d: 0.1000): source: 4.0625e-05, drain: -4.0625e-05, substrate: 1.5471e-17
+
+  =========== V_g: 0.6500, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 1.44e-14 100.3MB 0.0202s]
+  rtol 1.746049e-02
+  Linear systems solved: [nits 15, res 7.83e-15 100.3MB 0.0199s]
+  rtol 7.463044e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 9.17e-16 100.3MB 0.0615s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 129, res 2.96e-13 100.3MB 0.2274s]
+
+  rtol: V 2.355714e-02, P 5.730542e-03, N 5.883082e-03
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 1.02e-14 100.3MB 0.0204s]
+  rtol 3.533097e-04
+  Linear systems solved: [nits 13, res 2.16e-14 100.3MB 0.0191s]
+  rtol 2.319888e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 7.45e-16 100.3MB 0.0623s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 131, res 2.82e-14 100.3MB 0.2313s]
+
+  rtol: V 3.907742e-03, P 7.998816e-04, N 1.780461e-03
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 9.94e-15 100.3MB 0.0199s]
+  rtol 1.832627e-04
+  Linear systems solved: [nits 12, res 7.72e-15 100.3MB 0.0188s]
+  rtol 2.319888e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 5.84e-16 100.3MB 0.0610s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 132, res 1.09e-14 100.3MB 0.2347s]
+
+  rtol: V 2.870413e-03, P 2.101260e-04, N 1.609549e-03
+
+  ---- The 4-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 15, res 1.64e-14 100.3MB 0.0193s]
+  rtol 1.058166e-04
+  Linear systems solved: [nits 11, res 2.68e-14 100.3MB 0.0178s]
+  rtol 2.319888e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 17, res 5.88e-16 100.3MB 0.0587s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 129, res 7.18e-15 100.3MB 0.2274s]
+
+  rtol: V 1.756150e-03, P 3.259557e-05, N 9.708897e-04
+
+  ---- The 5-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 15, res 4.84e-15 100.3MB 0.0188s]
+  rtol 4.024407e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 7.76e-16 100.3MB 0.0597s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 132, res 3.62e-15 100.3MB 0.2326s]
+
+  rtol: V 6.605714e-04, P 1.495582e-05, N 2.089725e-04
+
+  ---- The 6-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 1.47e-14 100.3MB 0.0190s]
+  rtol 2.319888e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 4.79e-16 100.3MB 0.0606s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 127, res 1.78e-15 100.3MB 0.2287s]
+
+  rtol: V 2.772823e-04, P 1.466299e-05, N 1.831771e-04
+
+  ---- The 7-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 8.01e-15 100.3MB 0.0194s]
+  rtol 2.319888e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 3.84e-16 100.3MB 0.0608s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 132, res 1.01e-15 100.3MB 0.2344s]
+
+  rtol: V 2.041371e-04, P 1.704464e-05, N 1.217236e-04
+
+  ---- The 8-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 6.95e-15 100.3MB 0.0179s]
+  rtol 2.319888e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 17, res 6.80e-16 100.3MB 0.0583s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 132, res 7.97e-16 100.3MB 0.2313s]
+
+  rtol: V 8.317962e-05, P 1.785278e-05, N 2.374977e-05
+  Converged!
+
+  Currents (V_g: 0.6500 V_d: 0.1000): source: 4.3484e-05, drain: -4.3484e-05, substrate: 1.5428e-17
+
+  =========== V_g: 0.7000, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 1.69e-14 100.3MB 0.0201s]
+  rtol 1.621282e-02
+  Linear systems solved: [nits 15, res 7.20e-15 100.3MB 0.0186s]
+  rtol 6.268804e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 7.24e-16 100.3MB 0.0586s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 128, res 3.22e-13 100.3MB 0.2269s]
+
+  rtol: V 2.485544e-02, P 5.835887e-03, N 5.881929e-03
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 9.95e-15 100.3MB 0.0215s]
+  rtol 3.275893e-04
+  Linear systems solved: [nits 13, res 2.13e-14 100.3MB 0.0192s]
+  rtol 2.154182e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 17, res 9.00e-16 100.3MB 0.1068s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 131, res 2.30e-14 100.3MB 0.4585s]
+
+  rtol: V 3.926290e-03, P 8.000846e-04, N 1.760415e-03
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 1.04e-14 100.3MB 0.0436s]
+  rtol 1.675795e-04
+  Linear systems solved: [nits 12, res 7.71e-15 100.3MB 0.0189s]
+  rtol 2.154182e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 5.13e-16 100.3MB 0.1257s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 125, res 1.40e-14 100.3MB 0.5579s]
+
+  rtol: V 2.841196e-03, P 2.145231e-04, N 1.604006e-03
+
+  ---- The 4-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 15, res 1.47e-14 100.3MB 0.0180s]
+  rtol 9.613476e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 7.77e-16 100.3MB 0.0587s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 127, res 6.07e-15 100.3MB 0.2223s]
+
+  rtol: V 1.719642e-03, P 1.511492e-05, N 9.409631e-04
+
+  ---- The 5-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 15, res 4.78e-15 100.3MB 0.0199s]
+  rtol 3.619705e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 7.47e-16 100.3MB 0.0589s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 129, res 3.74e-15 100.3MB 0.2252s]
+
+  rtol: V 6.409421e-04, P 1.526017e-05, N 2.025691e-04
+
+  ---- The 6-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 1.49e-14 100.3MB 0.0183s]
+  rtol 2.154182e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 6.19e-16 100.3MB 0.0594s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 126, res 1.49e-15 100.3MB 0.2278s]
+
+  rtol: V 2.759049e-04, P 1.504450e-05, N 1.816854e-04
+
+  ---- The 7-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 8.22e-15 100.3MB 0.0191s]
+  rtol 2.154182e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 4.48e-16 100.3MB 0.0597s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 132, res 1.09e-15 100.3MB 0.2308s]
+
+  rtol: V 2.015239e-04, P 1.702853e-05, N 1.198908e-04
+
+  ---- The 8-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 6.96e-15 100.3MB 0.0192s]
+  rtol 2.154182e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 7.45e-16 100.3MB 0.0607s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 130, res 8.47e-16 100.3MB 0.2285s]
+
+  rtol: V 8.172820e-05, P 1.788159e-05, N 2.341829e-05
+  Converged!
+
+  Currents (V_g: 0.7000 V_d: 0.1000): source: 4.6404e-05, drain: -4.6404e-05, substrate: 1.5426e-17
+
+  =========== V_g: 0.7500, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 1.73e-14 100.3MB 0.0198s]
+  rtol 1.513151e-02
+  Linear systems solved: [nits 15, res 6.71e-15 100.3MB 0.0190s]
+  rtol 5.317803e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 6.13e-16 100.3MB 0.0646s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 128, res 3.82e-13 100.3MB 0.2257s]
+
+  rtol: V 2.603099e-02, P 5.781588e-03, N 5.376296e-03
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 9.65e-15 100.3MB 0.0205s]
+  rtol 2.928038e-04
+  Linear systems solved: [nits 13, res 1.83e-14 100.3MB 0.0231s]
+  rtol 2.010570e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 3.85e-16 100.3MB 0.0595s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 131, res 2.84e-14 100.3MB 0.2278s]
+
+  rtol: V 3.706531e-03, P 8.097933e-04, N 1.734135e-03
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 1.01e-14 100.3MB 0.0186s]
+  rtol 1.535916e-04
+  Linear systems solved: [nits 12, res 7.67e-15 100.3MB 0.0172s]
+  rtol 2.010570e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 5.10e-16 100.3MB 0.1019s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 126, res 1.37e-14 100.3MB 0.3544s]
+
+  rtol: V 2.808476e-03, P 2.191953e-04, N 1.592818e-03
+
+  ---- The 4-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 15, res 1.27e-14 100.3MB 0.0194s]
+  rtol 8.787886e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 4.38e-16 100.3MB 0.0582s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 129, res 6.50e-15 100.3MB 0.2340s]
+
+  rtol: V 1.684650e-03, P 1.553973e-05, N 9.174397e-04
+
+  ---- The 5-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 15, res 4.90e-15 100.3MB 0.0180s]
+  rtol 3.289713e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 17, res 6.41e-16 100.3MB 0.0569s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 130, res 3.81e-15 100.3MB 0.2539s]
+
+  rtol: V 6.240107e-04, P 1.587554e-05, N 1.949091e-04
+
+  ---- The 6-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 1.53e-14 100.3MB 0.0182s]
+  rtol 2.010570e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 6.56e-16 100.3MB 0.0587s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 123, res 1.74e-15 100.3MB 0.2189s]
+
+  rtol: V 2.735038e-04, P 1.543497e-05, N 1.799859e-04
+
+  ---- The 7-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 8.46e-15 100.3MB 0.0186s]
+  rtol 2.010570e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 17, res 9.02e-16 100.3MB 0.0574s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 131, res 1.20e-15 100.3MB 0.4859s]
+
+  rtol: V 1.980755e-04, P 1.703964e-05, N 1.174170e-04
+
+  ---- The 8-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 6.97e-15 100.3MB 0.0187s]
+  rtol 2.010570e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 4.00e-16 100.3MB 0.0604s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 131, res 9.50e-16 100.3MB 0.2570s]
+
+  rtol: V 7.988392e-05, P 1.787261e-05, N 2.346226e-05
+  Converged!
+
+  Currents (V_g: 0.7500 V_d: 0.1000): source: 4.9384e-05, drain: -4.9384e-05, substrate: 1.5415e-17
+
+  =========== V_g: 0.8000, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 1.77e-14 100.3MB 0.0203s]
+  rtol 1.418536e-02
+  Linear systems solved: [nits 15, res 6.10e-15 100.3MB 0.0185s]
+  rtol 4.550915e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 7.87e-16 100.3MB 0.0575s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 128, res 2.89e-13 100.3MB 0.2319s]
+
+  rtol: V 2.710082e-02, P 5.860131e-03, N 5.374980e-03
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 9.56e-15 100.3MB 0.0202s]
+  rtol 2.741410e-04
+  Linear systems solved: [nits 13, res 1.81e-14 100.3MB 0.0199s]
+  rtol 1.884909e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 6.73e-16 100.3MB 0.0578s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 129, res 2.73e-14 100.3MB 0.2402s]
+
+  rtol: V 3.723870e-03, P 8.284310e-04, N 1.722261e-03
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 1.03e-14 100.3MB 0.1928s]
+  rtol 1.427880e-04
+  Linear systems solved: [nits 12, res 7.73e-15 100.3MB 0.0261s]
+  rtol 1.884909e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 17, res 9.14e-16 100.3MB 0.0582s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 127, res 1.62e-14 100.3MB 0.2285s]
+
+  rtol: V 2.791710e-03, P 2.241337e-04, N 1.591965e-03
+
+  ---- The 4-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 15, res 9.60e-15 100.3MB 0.0205s]
+  rtol 8.128577e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 6.42e-16 100.3MB 0.0577s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 126, res 8.08e-15 100.3MB 0.2560s]
+
+  rtol: V 1.662262e-03, P 1.596354e-05, N 9.008477e-04
+
+  ---- The 5-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 15, res 4.95e-15 100.3MB 0.0190s]
+  rtol 3.025148e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 4.14e-16 100.3MB 0.0572s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 129, res 3.62e-15 100.3MB 0.2310s]
+
+  rtol: V 6.119708e-04, P 1.648921e-05, N 1.887844e-04
+
+  ---- The 6-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 1.58e-14 100.3MB 0.0176s]
+  rtol 1.884909e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 17, res 9.51e-16 100.3MB 0.0561s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 127, res 1.98e-15 100.3MB 0.2261s]
+
+  rtol: V 2.730642e-04, P 1.584289e-05, N 1.795996e-04
+
+  ---- The 7-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 8.77e-15 100.3MB 0.0188s]
+  rtol 1.884909e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 7.44e-16 100.3MB 0.0576s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 130, res 1.20e-15 100.3MB 0.2320s]
+
+  rtol: V 1.961115e-04, P 1.701730e-05, N 1.157765e-04
+
+  ---- The 8-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 6.96e-15 100.3MB 0.0178s]
+  rtol 1.884909e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 6.69e-16 100.3MB 0.0567s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 131, res 8.56e-16 100.3MB 0.2336s]
+
+  rtol: V 7.864905e-05, P 1.792967e-05, N 2.364965e-05
+  Converged!
+
+  Currents (V_g: 0.8000 V_d: 0.1000): source: 5.2422e-05, drain: -5.2422e-05, substrate: 1.5411e-17
+
+  =========== V_g: 0.8500, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 1.83e-14 100.3MB 0.0221s]
+  rtol 1.335053e-02
+  Linear systems solved: [nits 15, res 5.54e-15 100.3MB 0.0198s]
+  rtol 3.925265e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 6.05e-16 100.3MB 0.0588s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 124, res 3.56e-13 100.3MB 0.2219s]
+
+  rtol: V 2.807880e-02, P 5.926523e-03, N 5.373791e-03
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 9.53e-15 100.3MB 0.0203s]
+  rtol 2.577002e-04
+  Linear systems solved: [nits 13, res 1.78e-14 100.3MB 0.0176s]
+  rtol 1.774032e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 8.09e-16 100.3MB 0.0582s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 128, res 3.23e-14 100.3MB 0.4104s]
+
+  rtol: V 3.740832e-03, P 8.469430e-04, N 1.713616e-03
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 1.05e-14 100.3MB 0.0352s]
+  rtol 1.335294e-04
+  Linear systems solved: [nits 12, res 7.84e-15 100.3MB 0.0363s]
+  rtol 1.774032e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 7.63e-16 100.3MB 0.1445s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 126, res 1.68e-14 100.4MB 0.4718s]
+
+  rtol: V 2.779715e-03, P 2.293890e-04, N 1.593705e-03
+
+  ---- The 4-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 15, res 6.99e-15 100.4MB 0.0194s]
+  rtol 7.567972e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 7.37e-16 100.4MB 0.0920s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 120, res 8.70e-15 100.4MB 0.4686s]
+
+  rtol: V 1.644425e-03, P 1.638509e-05, N 8.872574e-04
+
+  ---- The 5-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 15, res 4.96e-15 100.4MB 0.0285s]
+  rtol 2.801060e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 8.28e-16 100.4MB 0.0594s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 129, res 3.81e-15 100.4MB 0.2265s]
+
+  rtol: V 6.019489e-04, P 1.691882e-05, N 1.835513e-04
+
+  ---- The 6-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 1.65e-14 100.4MB 0.0186s]
+  rtol 1.774032e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 8.15e-16 100.4MB 0.0629s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 126, res 1.83e-15 100.4MB 0.2214s]
+
+  rtol: V 2.730558e-04, P 1.621645e-05, N 1.795317e-04
+
+  ---- The 7-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 9.15e-15 100.4MB 0.0176s]
+  rtol 1.774032e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 5.87e-16 100.4MB 0.0626s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 127, res 1.27e-15 100.4MB 0.2215s]
+
+  rtol: V 1.946056e-04, P 1.702030e-05, N 1.144565e-04
+
+  ---- The 8-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 7.04e-15 100.4MB 0.0204s]
+  rtol 1.774032e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 7.12e-16 100.4MB 0.0585s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 130, res 9.77e-16 100.4MB 0.2285s]
+
+  rtol: V 7.762979e-05, P 1.795162e-05, N 2.385751e-05
+  Converged!
+
+  Currents (V_g: 0.8500 V_d: 0.1000): source: 5.5518e-05, drain: -5.5518e-05, substrate: 1.5396e-17
+
+  =========== V_g: 0.9000, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 1.86e-14 100.4MB 0.0192s]
+  rtol 1.260846e-02
+  Linear systems solved: [nits 14, res 2.86e-14 100.4MB 0.0189s]
+  rtol 3.409660e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 6.66e-16 100.4MB 0.0611s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 127, res 3.82e-13 100.4MB 0.2234s]
+
+  rtol: V 2.897655e-02, P 4.889706e-02, N 5.372727e-03
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 9.59e-15 100.4MB 0.0203s]
+  rtol 2.431063e-04
+  Linear systems solved: [nits 13, res 1.76e-14 100.4MB 0.0189s]
+  rtol 1.675475e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 4.82e-16 100.4MB 0.0605s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 128, res 3.68e-14 100.4MB 0.2275s]
+
+  rtol: V 3.757369e-03, P 7.702748e-03, N 1.707706e-03
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 1.05e-14 100.4MB 0.0199s]
+  rtol 1.255186e-04
+  Linear systems solved: [nits 12, res 7.95e-15 100.4MB 0.0187s]
+  rtol 1.675475e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 5.07e-16 100.4MB 0.0618s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 125, res 1.90e-14 100.4MB 0.2270s]
+
+  rtol: V 2.771753e-03, P 1.788801e-03, N 1.597698e-03
+
+  ---- The 4-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 15, res 6.50e-15 100.4MB 0.3108s]
+  rtol 7.086837e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 3.48e-16 100.4MB 0.0609s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 127, res 9.98e-15 100.4MB 0.2232s]
+
+  rtol: V 1.630503e-03, P 6.144248e-05, N 8.762540e-04
+
+  ---- The 5-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 15, res 4.95e-15 100.4MB 0.0182s]
+  rtol 2.609522e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 4.40e-16 100.4MB 0.0624s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 129, res 4.10e-15 100.4MB 0.2250s]
+
+  rtol: V 5.936748e-04, P 1.750776e-04, N 1.794519e-04
+
+  ---- The 6-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 1.72e-14 100.4MB 0.0178s]
+  rtol 1.675475e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 8.16e-16 100.4MB 0.0594s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 125, res 2.06e-15 100.4MB 0.2256s]
+
+  rtol: V 2.734197e-04, P 9.653186e-05, N 1.797421e-04
+
+  ---- The 7-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 9.35e-15 100.4MB 0.0178s]
+  rtol 1.675475e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 3.71e-16 100.4MB 0.0605s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 126, res 1.47e-15 100.4MB 0.2240s]
+
+  rtol: V 1.934979e-04, P 1.699858e-05, N 1.134154e-04
+
+  ---- The 8-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 7.20e-15 100.4MB 0.0179s]
+  rtol 1.675475e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 7.13e-16 100.4MB 0.0597s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 128, res 8.45e-16 100.4MB 0.2304s]
+
+  rtol: V 7.679925e-05, P 2.129816e-05, N 2.408323e-05
+  Converged!
+
+  Currents (V_g: 0.9000 V_d: 0.1000): source: 5.8670e-05, drain: -5.8670e-05, substrate: 1.5396e-17
+
+  =========== V_g: 0.9500, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 1.99e-14 100.4MB 0.0206s]
+  rtol 1.194451e-02
+  Linear systems solved: [nits 14, res 2.62e-14 100.4MB 0.0198s]
+  rtol 2.980833e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 4.14e-16 100.4MB 0.1060s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 124, res 3.95e-13 100.4MB 0.4594s]
+
+  rtol: V 2.980376e-02, P 6.036191e-02, N 5.371784e-03
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 9.61e-15 100.4MB 0.0207s]
+  rtol 2.304585e-04
+  Linear systems solved: [nits 13, res 1.74e-14 100.4MB 0.0189s]
+  rtol 1.587292e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 17, res 9.75e-16 100.4MB 0.1412s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 127, res 4.07e-14 100.4MB 0.7495s]
+
+  rtol: V 3.773454e-03, P 8.350779e-03, N 1.704122e-03
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 1.08e-14 100.4MB 0.0233s]
+  rtol 1.185271e-04
+  Linear systems solved: [nits 12, res 8.10e-15 100.4MB 0.0181s]
+  rtol 1.587292e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 3.95e-16 100.4MB 0.0600s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 125, res 1.81e-14 100.4MB 0.2249s]
+
+  rtol: V 2.770364e-03, P 2.327170e-03, N 1.603658e-03
+
+  ---- The 4-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 15, res 7.02e-15 100.4MB 0.0195s]
+  rtol 6.670354e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 4.22e-16 100.4MB 0.0598s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 127, res 1.00e-14 100.4MB 0.2253s]
+
+  rtol: V 1.619950e-03, P 1.493828e-04, N 8.674796e-04
+
+  ---- The 5-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 15, res 4.94e-15 100.4MB 0.0181s]
+  rtol 2.444413e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 3.86e-16 100.4MB 0.0643s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 123, res 4.94e-15 100.4MB 0.2197s]
+
+  rtol: V 5.869117e-04, P 2.212623e-04, N 1.759017e-04
+
+  ---- The 6-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 1.78e-14 100.4MB 0.0191s]
+  rtol 1.587292e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 5.67e-16 100.4MB 0.0617s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 125, res 1.84e-15 100.4MB 0.2235s]
+
+  rtol: V 2.741055e-04, P 1.315577e-04, N 1.801958e-04
+
+  ---- The 7-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 9.67e-15 100.4MB 0.0176s]
+  rtol 1.587292e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 4.96e-16 100.4MB 0.0589s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 126, res 1.19e-15 100.4MB 0.4335s]
+
+  rtol: V 1.927357e-04, P 1.822080e-05, N 1.126174e-04
+
+  ---- The 8-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 7.38e-15 100.4MB 0.0188s]
+  rtol 1.587292e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 5.10e-16 100.4MB 0.0605s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 128, res 9.12e-16 100.4MB 0.2261s]
+
+  rtol: V 7.613307e-05, P 2.566001e-05, N 2.432458e-05
+  Converged!
+
+  Currents (V_g: 0.9500 V_d: 0.1000): source: 6.1878e-05, drain: -6.1878e-05, substrate: 1.5381e-17
+
+  =========== V_g: 1.0000, V_s: 0.0000, V_d: 0.1000, V_st: 0.0000 ===========
+
+  ---- The 1-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 1.99e-14 100.4MB 0.0190s]
+  rtol 1.134695e-02
+  Linear systems solved: [nits 14, res 2.44e-14 100.4MB 0.0411s]
+  rtol 2.621205e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 5.19e-16 100.4MB 0.1317s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 123, res 3.58e-13 100.4MB 0.2975s]
+
+  rtol: V 3.056858e-02, P 5.965865e-02, N 5.370959e-03
+
+  ---- The 2-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 17, res 9.76e-15 100.4MB 0.0202s]
+  rtol 2.196973e-04
+  Linear systems solved: [nits 13, res 1.70e-14 100.4MB 0.0194s]
+  rtol 1.507927e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 7.16e-16 100.4MB 0.0596s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 126, res 4.24e-14 100.4MB 0.2226s]
+
+  rtol: V 3.789064e-03, P 8.433386e-03, N 1.702519e-03
+
+  ---- The 3-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 16, res 1.08e-14 100.4MB 0.0204s]
+  rtol 1.123768e-04
+  Linear systems solved: [nits 12, res 8.29e-15 100.4MB 0.0187s]
+  rtol 1.507927e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 5.49e-16 100.4MB 0.0606s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 124, res 1.87e-14 100.4MB 0.2183s]
+
+  rtol: V 2.846193e-03, P 2.791460e-03, N 1.611340e-03
+
+  ---- The 4-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 15, res 9.54e-15 100.4MB 0.0193s]
+  rtol 6.307014e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 4.84e-16 100.4MB 0.0605s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 126, res 1.09e-14 100.5MB 0.2223s]
+
+  rtol: V 1.612306e-03, P 2.629082e-04, N 8.606342e-04
+
+  ---- The 5-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 15, res 5.03e-15 100.5MB 0.0187s]
+  rtol 2.300981e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 5.67e-16 100.5MB 0.0589s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 128, res 4.68e-15 100.5MB 0.4602s]
+
+  rtol: V 5.814597e-04, P 2.588282e-04, N 1.768190e-04
+
+  ---- The 6-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 1.84e-14 100.5MB 0.0201s]
+  rtol 1.507927e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 2.97e-16 100.5MB 0.0816s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 125, res 2.77e-15 100.5MB 0.2260s]
+
+  rtol: V 2.750698e-04, P 1.670772e-04, N 1.808723e-04
+
+  ---- The 7-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 9.89e-15 100.5MB 0.0178s]
+  rtol 1.507927e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 18, res 5.00e-16 100.5MB 0.0624s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 126, res 1.25e-15 100.5MB 0.2214s]
+
+  rtol: V 1.922741e-04, P 2.765553e-05, N 1.120301e-04
+
+  ---- The 8-th Gummel iteration ----
+
+  The Poisson equation:
+  Linear systems solved: [nits 14, res 7.54e-15 100.5MB 0.0187s]
+  rtol 1.507927e-05
+  Converged.
+
+  The hole continuity equation:
+$$$$$$$  Linear systems solved: [nits 19, res 4.16e-16 100.5MB 0.0603s]
+
+  The electron continuity equation:
+$$$$$$$  Linear systems solved: [nits 130, res 7.26e-16 100.5MB 0.5237s]
+
+  rtol: V 7.561040e-05, P 2.928532e-05, N 2.457964e-05
+  Converged!
+
+  Currents (V_g: 1.0000 V_d: 0.1000): source: 6.5141e-05, drain: -6.5141e-05, substrate: 1.5372e-17
+
+  Memory usage: current 100.5MB, peak 100.5MB
